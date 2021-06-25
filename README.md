@@ -2,7 +2,7 @@
  portfolio for the course HCI. In this portfolio I will show my work I made during the course, what I learned and the finished product.
 
 ## link to the website
-https://17022754.github.io/Portfolio_HCI/
+https://17022754.github.io/HCI_portfolio/
 
 ## Sources
 
