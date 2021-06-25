@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Portfolio HCI-AssignmentsARVR</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="../../styles/style.css">
+	<link rel="stylesheet" type="text/css" href="../../styles/style-menu.css">
+	<link rel="stylesheet" type="text/css" href="../../styles/style-images.css">
+	<!-- link for the toggle item -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+	<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+	<script type="text/javascript" src="../../scripts/script.js" defer></script>
+	<!-- Jquery for the menu -->
+	<script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+</head>
+<body>
+	<nav>
+      <div class="logo"><a class="a-layout" href="../../index.html">Doortje de Bles</a></div>
+      <label for="btn" class="icon">
+        <span class="fa fa-bars"></span>
+      </label>
+      <input type="checkbox" id="btn">
+      <ul>
+        <li><a href="../../index.html">Home</a></li>
+        <li>
+          <label for="btn-1" class="show">Hoorcollege opdrachten +</label>
+          <a href="#">Hoorcollege opdrachten<i class="fas fa-chevron-circle-down"></i></a>
+          <input type="checkbox" id="btn-1">
+          <ul>
+            <!-- AR/VR section with submenu items -->
+            <li>
+              <label for="btn-2" class="show">AR & VR +</label>
+              <a href="../AR:VR/introduction.html">AR & VR <i class="fas fa-chevron-circle-down"></i></a>
+              <input type="checkbox" id="btn-2">
+              <ul>
+                <li><a href="../AR:VR/introduction.html">Introductie</a></li>
+                <li><a href="../AR:VR/assignments.html">Opdrachten</a></li>
+              </ul>
+            </li>
+            <!-- Wearables section with submenu items -->
+            <li>
+              <label for="btn-3" class="show">Wearables +</label>
+              <a href="../Wearables/introduction.html">Wearables <i class="fas fa-chevron-circle-down"></i></a>
+              <input type="checkbox" id="btn-3">
+              <ul>
+                <li><a href="../Wearables/introduction.html">Introductie</a></li>
+                <li><a href="../Wearables/assignments.html">Opdrachten</a></li>
+              </ul>
+            </li>
+            <!-- Artificial creatures section with submenu items -->
+            <li>
+              <label for="btn-4" class="show">Artificial creatures +</label>
+              <a href="../AC/introduction.html">Artificial creatures <i class="fas fa-chevron-circle-down"></i></a>
+              <input type="checkbox" id="btn-4">
+              <ul>
+                <li><a href="../AC/introduction.html">Introductie</a></li>
+                <li><a href="../AC/assignments.html">Opdrachten</a></li>
+              </ul>
+            </li>
+            <!-- Playful interaction section with submenu items -->
+            <li>
+              <label for="btn-5" class="show">Playful interaction +</label>
+              <a href="../PI/introduction.html">Playful interaction <i class="fas fa-chevron-circle-down"></i></a>
+              <input type="checkbox" id="btn-5">
+              <ul>
+                <li><a href="../PI/introduction.html">Introductie</a></li>
+                <li><a href="../PI/assignments.html">Opdrachten</a></li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+       <!-- Workshop section with submenu items -->
+        <li>
+          <label for="btn-6" class="show">Workshops +</label>
+          <a href="#">Workshops<i class="fas fa-chevron-circle-down"></i></a>
+          <input type="checkbox" id="btn-6">
+            <ul>
+		        <li><a href="../workshopARVR/assignments.html">AR & VR</a></li>
+		        <li><a href="../workshopArduino/assignments.html">Arduino</a></li>
+		        <li><a href="../workshopCV/assignments.html">Computer Vision</a></li>
+          	</ul>
+        </li>
+        <!-- Guestlecture section with submenu items -->
+        <li>
+          <label for="btn-7" class="show">Guest lecture +</label>
+          <a href="#">Guest lecture <i class="fas fa-chevron-circle-down"></i></a>
+          <input type="checkbox" id="btn-7">
+          <ul>
+            <li><a href="../Guestlecture/introduction.html">Introductie</a></li>
+            <li><a href="../Guestlecture/assignments.html">Opdrachten</a></li>
+            <li><a href="../Guestlecture/reflectie.html">Reflectie</a></li>
+          </ul>
+        </li>
+        <!-- Labweken section with submenu items -->
+        <li>
+          <label for="btn-8" class="show">Labweken +</label>
+          <a href="#">Labweken<i class="fas fa-chevron-circle-down"></i></a>
+          <input type="checkbox" id="btn-8">
+          <ul>
+            <li><a href="../labweken/introduction.html">Introductie</a></li>
+            <li><a href="../labweken/product.html">Product</a></li>
+            <li><a href="../labweken/proces.html">Proces</a></li>
+            <li><a href="../labweken/reflectie.html">Reflectie</a></li>
+          </ul>
+        </li>
+      </ul>
+  </nav>
+	<section class="flexbox">
+		<section class="images" id="VRAR-assignments">
+			<!-- A-frame assignment images and videos-->
+			<div class="container">
+	  			<img src="../../images/AR:VR/A-frame/shapes1.png" alt="A-frame visual" class="image">
+	  			<div class="textOn">
+	    			<div class="text">Shapes</div>
+	 			</div>
+			</div>
+			
+			<div class="container">
+				<video width="320" height="240" controls>
+  					<source src="../../videos/ARVR/shapes.mp4" type="video/mp4">
+					Your browser does not support the video tag.
+				</video>
+			</div>
+
+			<div class="container">
+				<video width="320" height="240" controls>
+  					<source src="../../videos/ARVR/textureAnimation.mp4" type="video/mp4">
+					Your browser does not support the video tag.
+				</video>
+			</div>
+
+			<div class="container">
+				<video width="320" height="240" controls>
+  					<source src="../../videos/ARVR/textureAnimation2.mp4" type="video/mp4">
+					Your browser does not support the video tag.
+				</video>
+			</div>
+
+			<div class="container">
+				<video width="320" height="240" controls>
+  					<source src="../../videos/ARVR/textureAnimation3.mp4" type="video/mp4">
+					Your browser does not support the video tag.
+				</video>
+			</div>
+
+			<div class="container">
+				<video width="320" height="240" controls>
+  					<source src="../../videos/ARVR/interaction.mp4" type="video/mp4">
+					Your browser does not support the video tag.
+				</video>
+			</div>
+
+			<!--Unreal Engine images and videos-->	
+			<div class="container">
+	  			<img src="../../images/AR:VR/UnrealEngine/start.png" alt="Unreal Engine visual" class="image">
+	  			<div class="textOn">
+	    			<div class="text">Start screen</div>
+	 			</div>
+			</div>
+
+			<div class="container">
+	  			<img src="../../images/AR:VR/UnrealEngine/material2.png" alt="Unreal Engine visual" class="image">
+	  			<div class="textOn">
+	    			<div class="text">Add material</div>
+	 			</div>
+			</div>
+
+			<div class="container">
+	  			<img src="../../images/AR:VR/UnrealEngine/rotateBanana.png" alt="Unreal Engine visual" class="image">
+	  			<div class="textOn">
+	    			<div class="text">Rotate object</div>
+	 			</div>
+			</div>
+
+			<div class="container">
+	  			<img src="../../images/AR:VR/UnrealEngine/resultbanana.png" alt="Unreal Engine visual" class="image">
+	  			<div class="textOn">
+	    			<div class="text">Finished banana</div>
+	 			</div>
+			</div>
+
+			<div class="container">
+	  			<img src="../../images/AR:VR/UnrealEngine/turnbanana.png" alt="Unreal Engine visual" class="image">
+	  			<div class="textOn">
+	    			<div class="text">Make banana turnable</div>
+	 			</div>
+			</div>
+
+			<div class="container">
+	  			<img src="../../images/AR:VR/UnrealEngine/rotate.png" alt="Unreal Engine visual" class="image">
+	  			<div class="textOn">
+	    			<div class="text">Make banana turnable</div>
+	 			</div>
+			</div>
+
+			<div class="container">
+				<video width="320" height="240" controls>
+  					<source src="../../videos/ARVR/result.mp4" type="video/mp4">
+					Your browser does not support the video tag.
+				</video>
+			</div>
+
+			<!--Extra exercise Unreal Engine-->
+			<div class="container">
+	  			<img src="../../images/AR:VR/UnrealEngine/move1.png" alt="Unreal Engine visual" class="image">
+	  			<div class="textOn">
+	    			<div class="text">Add components to move</div>
+	 			</div>
+			</div>
+
+			<div class="container">
+	  			<img src="../../images/AR:VR/UnrealEngine/move2.png" alt="Unreal Engine visual" class="image">
+	  			<div class="textOn">
+	    			<div class="text">Add components to move</div>
+	 			</div>
+			</div>
+
+			<div class="container">
+	  			<img src="../../images/AR:VR/UnrealEngine/move3.png" alt="Unreal Engine visual" class="image">
+	  			<div class="textOn">
+	    			<div class="text">Add components to move</div>
+	 			</div>
+			</div>
+
+			<div class="container">
+				<video width="320" height="240" controls>
+  					<source src="../../videos/ARVR/ExtraExercise.mp4" type="video/mp4">
+					Your browser does not support the video tag.
+				</video>
+			</div>
+
+		</section>
+		<section class="information">
+			<h1>Workshop A-Frame en Unreal Engine</h1>
+			<h2>Introductie</h2>
+
+			<p>In de workshop is gewerkt met twee tools waarmee een virtual wereld gecreerd kan worden. De eerste tool is A-frame, een web framework wat werkt met html en javascript. Unreal Engine is de tweede tool waarmee ik heb gewerkt. Het is een development omgeving, waar je games en simulaties kan maken. </p>
+
+			<h2>A-frame</h2>
+			<p>Om A-frame goed te laten werken, ben ik begonnen met een githubpage maken. Een A-frame moet namelijk online gezet worden, anders worden bepaalde delen niet uitgevoerd. Als de code lokaal wordt gedraaid, krijg je een zwart beeld. </p>
+      		
+      		<div class="layoutLinks">
+      			<a href="https://17022754.github.io/HCI_workshop_AFrame/" target="_blank">Klik hier voor de uiteindelijke resultaten</a>
+      			<a href="https://github.com/17022754/HCI_workshop_AFrame" target="_blank">Klik hier voor de code</a>
+      		</div>
+
+			<h3>Shapes</h3>
+			<p>Deze opdracht bestond uit het begrijpen van de verschillende basis vormen, zoals de lucht en ondergrond. Ook heb ik vormen toegevoegd, namelijk de cylinder, tetrahedron en dodecahedron. In deze opdracht heb ik al kunnen spelen met de positie, grootte en rotatie, zodat de vormen goed zichtbaar zijn voor de gebruiker.</p>
+
+			<h3>Texture en Animation</h3>
+			<p>In de opdracht over textuur heb ik geleerd hoe je textuur moet toevoegen aan de vormen. Zoals het toevoegen van gras aan de ondergrond. In de opdracht over annimaties heb ik geleerd hoe ik zowel in html als javascript annimaties kan toevoegen aan vormen.</p>
+
+			<h3>Interaction</h3>
+			<p>In deze opdracht heb ik geleerd hoe je een interactie kan creëren met de muis, zoals een box die na aanraking van de muis gaat bewegen. Deze interactie kan gemaakt worden in html, maar later heb ik het ook gemaakt in javascript.</p>
+
+      <h3>Interaction Headset</h3>
+			<p>Deze opdracht is voortgeborduurd vanuit de opdracht Interaction, maar nu heb ik gewerkt om de boxen te laten werken als je een VR bril op hebt. Dit kan bereikt worden door een a-camera element toe te voegen. Hier worden verschillende elementen aan toegevoegd, zodat deze elementen gekoppeld zijn aan het camerabeeld. Zo is de muis vervangen door een cirkel, en later door een driehoek, zodat de gebruiker een referentiepunt heeft. </p>
+
+      <h2>Unreal Engine</h2>
+      <p class="linksInText">Unreal Engine is een programma wat je download op je computer. Om de basis van dit programma te leren kennen, heb ik via de website van Unreal Engine een stappenplan gevolgd. <a href="https://www.raywenderlich.com/771-unreal-engine-4-tutorial-for-beginners-getting-started" target="_blank" >Klik hier voor het stappenplan.</a></p>
+      
+
+			<p>Om te beginnen maak je een leeg canvas, zodat daarna de documenten voor dit project geïmporteerd kunnen worden. De documenten bestaan uit een banaanmodel, wat de vorm van de banaan geeft en de textuur, wat de textuur aan de banaan geeft. </p>
+
+			<p>Om de banaan een textuur te geven, moet eerst een materiaal gecreerd worden. Hierop kan de textuur worden geplakt, wat kan door middel van nodes. Nodes zijn objecten waaraan een bepaalde waarden toegevoegd kan worden, zodat bijvoorbeeld textuur toegevoegd kan worden. </p>
+
+      <p>Door het toevoegen van een componenten en de toevoeging van blueprints nodes , kan de banaan draaien. Een blueprint node is iets anders dan een node, omdat een blueprint node zowel een input als output nodig hebben. </p>
+
+
+			<h3>Verdiepende opdracht</h3>
+      <p class="linksInText">In de verdiepende opdracht heb ik een soort pacman gemaakt, waar een blokje de bananen (van de voorgaande opdracht) opeet. De uitleg van deze opdracht is <a href="https://www.raywenderlich.com/663-unreal-engine-4-blueprints-tutorial" target="_blank">via deze link</a> terug te vinden. </p>
+
+      <p>In deze opdracht wordt gebruik gemaakt van blueprints, wat een visuele vorm is van coderen. Dit zorgt ervoor dat je sneller een prototype van een game kan maken.</p>
+
+      <p>Om de bananen te kunnen opeten, moet je eerst een pion maken. Aan de pion worden alle waarden gegeven, waardoor hij uiteindelijk kan bewegen en de bananen kan opeten. Zo wordt een camera toegevoegd, zodat je de pion vanuit de juiste hoek volgt/bekijkt. </p>
+
+      <p>Door het toevoegen van StartPlayer, heeft de pion een startpunt. Vanuit hier kunnen de keyboard toetsen gekoppeld worden aan een beweging. Zo is W bijvoorbeeld vooruit. Ook kan je nog een variabele MaxSpeed toevoegen, wat zorgt dat de pion niet te snel gaat.</p>
+
+      <p>Het object AddActorLocalOffset zorgt ervoor dat de pion niet door andere elementen heen kan. De banaan is een apart gecreëerd item, met een overlap element. Dit zorgt dat de pion de bananen kan opeten. </p>
+		</section>
+	</section>
+</body>
+</html>

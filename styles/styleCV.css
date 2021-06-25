@@ -1,0 +1,15 @@
+pre{
+	text-align: left;
+	font-size: 1rem;
+	margin-left: 0;
+}
+
+@media only screen and (min-width: 1024px) {
+	#CV-assignments{
+		width: 60%;
+	}
+
+	.information {
+		width: 100%;
+	}
+}

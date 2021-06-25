@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Portfolio HCI-AssignmentsComputerVision</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="../../styles/style.css">
+	<link rel="stylesheet" type="text/css" href="../../styles/style-menu.css">
+	<link rel="stylesheet" type="text/css" href="../../styles/style-images.css">
+	<link rel="stylesheet" type="text/css" href="../../styles/styleCV.css">
+	<!-- link for the toggle item -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+	<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+	<script type="text/javascript" src="../../scripts/script.js" defer></script>
+	<!-- Jquery for the menu -->
+	<script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+</head>
+<body>
+	<nav>
+      <div class="logo"><a class="a-layout" href="../../index.html">Doortje de Bles</a></div>
+      <label for="btn" class="icon">
+        <span class="fa fa-bars"></span>
+      </label>
+      <input type="checkbox" id="btn">
+      <ul>
+        <li><a href="../../index.html">Home</a></li>
+        <li>
+          <label for="btn-1" class="show">Hoorcollege opdrachten +</label>
+          <a href="#">Hoorcollege opdrachten<i class="fas fa-chevron-circle-down"></i></a>
+          <input type="checkbox" id="btn-1">
+          <ul>
+            <!-- AR/VR section with submenu items -->
+            <li>
+              <label for="btn-2" class="show">AR & VR +</label>
+              <a href="../AR:VR/introduction.html">AR & VR <i class="fas fa-chevron-circle-down"></i></a>
+              <input type="checkbox" id="btn-2">
+              <ul>
+                <li><a href="../AR:VR/introduction.html">Introductie</a></li>
+                <li><a href="../AR:VR/assignments.html">Opdrachten</a></li>
+              </ul>
+            </li>
+            <!-- Wearables section with submenu items -->
+            <li>
+              <label for="btn-3" class="show">Wearables +</label>
+              <a href="../Wearables/introduction.html">Wearables <i class="fas fa-chevron-circle-down"></i></a>
+              <input type="checkbox" id="btn-3">
+              <ul>
+                <li><a href="../Wearables/introduction.html">Introductie</a></li>
+                <li><a href="../Wearables/assignments.html">Opdrachten</a></li>
+              </ul>
+            </li>
+            <!-- Artificial creatures section with submenu items -->
+            <li>
+              <label for="btn-4" class="show">Artificial creatures +</label>
+              <a href="../AC/introduction.html">Artificial creatures <i class="fas fa-chevron-circle-down"></i></a>
+              <input type="checkbox" id="btn-4">
+              <ul>
+                <li><a href="../AC/introduction.html">Introductie</a></li>
+                <li><a href="../AC/assignments.html">Opdrachten</a></li>
+              </ul>
+            </li>
+            <!-- Playful interaction section with submenu items -->
+            <li>
+              <label for="btn-5" class="show">Playful interaction +</label>
+              <a href="../PI/introduction.html">Playful interaction <i class="fas fa-chevron-circle-down"></i></a>
+              <input type="checkbox" id="btn-5">
+              <ul>
+                <li><a href="../PI/introduction.html">Introductie</a></li>
+                <li><a href="../PI/assignments.html">Opdrachten</a></li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+       <!-- Workshop section with submenu items -->
+        <li>
+          <label for="btn-6" class="show">Workshops +</label>
+          <a href="#">Workshops<i class="fas fa-chevron-circle-down"></i></a>
+          <input type="checkbox" id="btn-6">
+            <ul>
+		        <li><a href="../workshopARVR/assignments.html">AR & VR</a></li>
+		        <li><a href="../workshopArduino/assignments.html">Arduino</a></li>
+		        <li><a href="../workshopCV/assignments.html">Computer Vision</a></li>
+          	</ul>
+        </li>
+        <!-- Guestlecture section with submenu items -->
+        <li>
+          <label for="btn-7" class="show">Guest lecture +</label>
+          <a href="#">Guest lecture <i class="fas fa-chevron-circle-down"></i></a>
+          <input type="checkbox" id="btn-7">
+          <ul>
+            <li><a href="../Guestlecture/introduction.html">Introductie</a></li>
+            <li><a href="../Guestlecture/assignments.html">Opdrachten</a></li>
+            <li><a href="../Guestlecture/reflectie.html">Reflectie</a></li>
+          </ul>
+        </li>
+        <!-- Labweken section with submenu items -->
+        <li>
+          <label for="btn-8" class="show">Labweken +</label>
+          <a href="#">Labweken<i class="fas fa-chevron-circle-down"></i></a>
+          <input type="checkbox" id="btn-8">
+          <ul>
+            <li><a href="../labweken/introduction.html">Introductie</a></li>
+            <li><a href="../labweken/product.html">Product</a></li>
+            <li><a href="../labweken/proces.html">Proces</a></li>
+            <li><a href="../labweken/reflectie.html">Reflectie</a></li>
+          </ul>
+        </li>
+      </ul>
+  </nav>
+	<section class="flexbox">
+		<section class="images" id="CV-assignments">
+			<!-- A-frame assignment images and videos-->
+			<div class="container">
+	  			<img src="../../images/computerVision/opdracht2f.png" alt="Computer vision visual" class="image">
+	  			<div class="textOn">
+	    			<div class="text">Shapes</div>
+	 			</div>
+			</div>
+
+			<div class="container">
+	  			<img src="../../images/computerVision/opdracht2i.png" alt="Computer vision visual" class="image">
+	  			<div class="textOn">
+	    			<div class="text">Shapes</div>
+	 			</div>
+			</div>
+			
+			<div class="container">
+				<video width="320" height="240" controls>
+  					<source src="../../videos/ComputerVision/opdracht2.mp4" type="video/mp4">
+					Your browser does not support the video tag.
+				</video>
+			</div>
+
+			<div class="container">
+				<video width="320" height="240" controls>
+  					<source src="../../videos/ComputerVision/opdracht2o.mp4" type="video/mp4">
+					Your browser does not support the video tag.
+				</video>
+			</div>
+
+			<div class="container">
+				<video width="320" height="240" controls>
+  					<source src="../../videos/ComputerVision/opdracht3B.mp4" type="video/mp4">
+					Your browser does not support the video tag.
+				</video>
+			</div>
+
+			<div class="container">
+				<video width="320" height="240" controls>
+  					<source src="../../videos/ComputerVision/opdracht5.mp4" type="video/mp4">
+					Your browser does not support the video tag.
+				</video>
+			</div>
+
+		</section>
+		<section class="information">
+			<h1>Workshop Processing, p5.js en computer vision </h1>
+			<h2>Introductie</h2>
+
+			<p>Ik heb in de vorige workshop, de workshop van Arduino, al een beetje gewerkt met processing. Het is een interactieve manier van programmeren van animaties en afbeeldingen. De taal die wordt gebruikt binnen processing, een taal die ik tot nu toe nog niet kende. Tijdens deze opdrachten heb ik hiermee kennis gemaakt. Ik heb zo veel mogelijk filmpjes en foto’s gemaakt en deze toegevoegd aan de filmrol aan de linkerzijde van de pagina.</p>
+
+			<h3>Shapes</h3>
+			<p>Om het programma te leren kennen, ben ik begonnen met een ellipse te maken. Ik heb hier geoefend met een perfecte cirkel maken, maar ook de positionering van de ellipse. Daarna ben ik verdergegaan met kleuren aanpassen en de rand van de ellipse weghalen. In de onderstaande code heb ik verschillende cirkels gemaakt in verschillende groottes, kleuren en locaties.</p>
+
+			<h3>Opdracht 2F</h3>
+			<pre>
+	void setup(){
+		size(200,200);
+		ellipseMode(CORNER);
+		noStroke();
+		fill(255,68,159);
+		ellipse(50, 50, 100, 100);
+		stroke(255,245,183);
+		fill(0,234,211);
+		ellipseMode(CORNERS);
+		ellipse(40, 40, 70, 150);
+		noStroke();
+		fill(0,95,153);
+		ellipseMode(CENTER);
+		ellipse(120, 120, 100, 30);
+	}
+	void draw(){
+	}	
+
+			</pre>
+
+			<p>Daarnaast kan je ook nog andere vormen toevoegen zoals een lijn of een driehoek. In de volgende opdracht heb ik twee rechthoeken, een driehoek en een quad gemaakt in verschillende posities, om te zorgen dat ik dit goed snap. Ik vond het soms nog wel lastig om de juiste positie aan te nemen voor de verschillende vormen.</p>
+
+			<h3>Opdracht 2I</h3>
+
+			<pre>
+	void setup(){
+		size(200,200);
+		noStroke();
+		fill(0,95,153);
+		rect(10,10,50,100);
+
+		fill(255,245,183);
+		triangle(90,90,90,50,50,50); 
+
+		fill(0,191,255);
+		quad(120,120, 160, 100, 190, 180, 130, 150);
+
+		fill(210,105,30);
+		triangle(10, 140,10,180,60,160); 
+
+		fill(255,20,147);
+		rect(100,10,90,90);
+	}
+
+	void draw(){}
+
+			</pre>
+
+			<p>Naast vormen positioneren kan je ze ook met elkaar laten interacteren. Ik heb dit gedaan door een rechthoek te maken wat de muis volgt en een cirkel die van kleur verandert als ik er met de muis overheen ga. Hoe ik dit heb gedaan is te zien in de onderstaande code. </p>
+
+			<h3>Opdracht 2O</h3>
+			<pre>
+	int diameter = 60;
+
+	void setup() {
+		size(200,200);
+		background (200,200,200);
+		frameRate(15);
+	}
+
+	void draw() {
+		background (200,200,200);
+		noStroke();
+		fill(0,191,255);
+		rect(mouseX, mouseY, diameter, diameter);
+
+
+		fill(mouseX, mouseY, mouseY);
+		ellipse(100,100,diameter, diameter);
+	}
+
+			</pre>
+
+			<h3>Processing en Arduino</h3>
+			<p>Zoals in de vorige workshop al duidelijk werd, kan processing en Arduino samen gebruikt worden. Deze twee programma’s kunnen aan elkaar gekoppeld worden door een library te importeren. Zo kan je veel verschillende dingen creëren, zoals een ledje die aangaat als je met je muis over een vierkant gaat. Ik heb met deze opdracht gezorgd dat als je over een ellipse gaat met je muis in processing, er een muziekje gaat afspelen via Arduino. Dit heb ik gedaan met de speaker en heb ik als ondersteuning opdracht 9 vanuit de workshop van Arduino. In het filmpje heb ik het geluid eronder geklapt, zodat je een idee krijgt hoe het hoort te klinken. In de code hoort de muziek te stoppen als ik uit de ellipse klik. </p>
+
+			<h3>Opdracht 3B</h3>
+			<p>Processing code:</p>
+			<pre>
+	import processing.serial.*;
+
+	Serial myPort; // Create object from Serial class
+	int val; // Data received from the serial port
+
+	void setup(){
+		size(200, 200);
+	 	String portName = Serial.list()[1]; 
+
+	 	myPort = new Serial(this, portName, 9600);
+	}
+
+	void draw() {
+	  if (mousePressed && (mouseButton == LEFT)) {
+	    fill(0);
+	    myPort.write('H');
+	  } else {
+	    fill(126);
+	    myPort.write('L'); // send an L otherwise
+	  }
+	  ellipseMode(CORNER);
+	  ellipse(50, 50, 100, 100); // Draw a ellipse
+	}
+
+			</pre>
+
+			<p>Arduino code</p>
+
+			<pre>
+	char val; // Data received from the serial port
+	int speakerPin = 8;
+
+	void setup() {
+	pinMode(speakerPin, OUTPUT); // Set pin as OUTPUT
+	Serial.begin(9600); // Start serial communication at 9600 bps
+	}
+	void loop() {
+	while (Serial.available()) { // If data is available to read,
+	val = Serial.read(); // read it and store it in val
+	}
+
+	if (val == 'H') { // If H was received play music
+	    tone(speakerPin, 392, 400); // plays a tone of 392Hz for 400ms
+	    delay(500); // wait 500 ms
+	    tone(speakerPin, 294, 400); // plays a tone of 493Hz for 400ms
+	    delay(500); // wait 500 ms
+	    tone(speakerPin, 330, 100); // plays a tone of 262Hz for 100ms
+	    delay(50); // wait 25 ms
+	    tone(speakerPin, 262, 100); // plays a tone of 262Hz for 100ms
+	    delay(50); // wait 50 ms
+	    tone(speakerPin, 262, 100); // plays a tone of 392Hz for 100ms
+	    delay(50); // wait 50 ms
+	    tone(speakerPin, 294, 100); // plays a tone of 294Hz for 100ms
+	    delay(50); // wait 50 ms
+	    tone(speakerPin, 330, 400); // plays a tone of 330Hz for 400ms
+	    delay(500); // wait 250 ms
+	    tone(speakerPin, 262, 400); // plays a tone of 262Hz for 400ms
+	    delay(500); // wait 500 ms
+	    } else {
+	digitalWrite(speakerPin, LOW); // Otherwise turn it OFF
+	}
+	delay(100); // Wait 100 milliseconds for next reading
+	}
+
+			</pre>
+
+			<h3>p5.js</h3>
+			<p>p5.js is een javascript library die focust op een interactieve manier van coderen, wat erg lijkt op processing. Het heeft wel een paar verschillen, zoals dat je niet vastzit aan een canvas maar je de hele browser pagina kan gebruiken als schetst. Om een begin te maken met deze manier van coderen heb ik een introductievideo gevolgd op de website van p5. Uiteindelijk heb ik mijn muis interactief gemaakt door een ellipse toe te voegen die de muis volgt. Deze verandert van kleur door de functie random() en als je de muis indrukt krijg je een dikke zwarte lijn. Bekijk de code om te zien hoe ik dit heb gedaan. </p>
+
+			<h3>Opdracht 5C</h3>
+
+			<pre>
+	function setup(){
+		createCanvas(400, 400);
+	}
+
+	function draw(){
+		if(MouseIsPressed){
+			fill(0);
+		}else{
+			var grey = random(255);
+			fill(grey);
+		}
+		ellipse(mouseX, mouseY, 80, 80)
+	}
+
+			</pre>
+		</section>
+	</section>
+</body>
+</html>

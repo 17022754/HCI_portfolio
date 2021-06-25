@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Portfolio HCI-IntroductieARVR</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="../../styles/style.css">
+	<link rel="stylesheet" type="text/css" href="../../styles/style-menu.css">
+	<link rel="stylesheet" type="text/css" href="../../styles/style-images.css">
+  <link rel="stylesheet" type="text/css" href="../../styles/styleVR.css">
+	<!-- link for the toggle item -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+	<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+	<script type="text/javascript" src="../../scripts/script.js" defer></script>
+	<!-- Jquery for the menu -->
+	<script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+</head>
+<body>
+  <nav>
+      <div class="logo"><a class="a-layout" href="../../index.html">Doortje de Bles</a></div>
+      <label for="btn" class="icon">
+        <span class="fa fa-bars"></span>
+      </label>
+      <input type="checkbox" id="btn">
+      <ul>
+        <li><a href="../../index.html">Home</a></li>
+        <li>
+          <label for="btn-1" class="show">Hoorcollege opdrachten +</label>
+          <a href="#">Hoorcollege opdrachten<i class="fas fa-chevron-circle-down"></i></a>
+          <input type="checkbox" id="btn-1">
+          <ul>
+            <!-- AR/VR section with submenu items -->
+            <li>
+              <label for="btn-2" class="show">AR & VR +</label>
+              <a href="#">AR & VR <i class="fas fa-chevron-circle-down"></i></a>
+              <input type="checkbox" id="btn-2">
+              <ul>
+                <li><a href="#">Introductie</a></li>
+                <li><a href="assignments.html">Opdrachten</a></li>
+              </ul>
+            </li>
+            <!-- Wearables section with submenu items -->
+            <li>
+              <label for="btn-3" class="show">Wearables +</label>
+              <a href="../Wearables/introduction.html">Wearables <i class="fas fa-chevron-circle-down"></i></a>
+              <input type="checkbox" id="btn-3">
+              <ul>
+                <li><a href="../Wearables/introduction.html">Introductie</a></li>
+                <li><a href="../Wearables/assignments.html">Opdrachten</a></li>
+              </ul>
+            </li>
+            <!-- Artificial creatures section with submenu items -->
+            <li>
+              <label for="btn-4" class="show">Artificial creatures +</label>
+              <a href="../AC/introduction.html">Artificial creatures <i class="fas fa-chevron-circle-down"></i></a>
+              <input type="checkbox" id="btn-4">
+              <ul>
+                <li><a href="../AC/introduction.html">Introductie</a></li>
+                <li><a href="../AC/assignments.html">Opdrachten</a></li>
+              </ul>
+            </li>
+            <!-- Playful interaction section with submenu items -->
+            <li>
+              <label for="btn-5" class="show">Playful interaction +</label>
+              <a href="../PI/introduction.html">Playful interaction <i class="fas fa-chevron-circle-down"></i></a>
+              <input type="checkbox" id="btn-5">
+              <ul>
+                <li><a href="../PI/introduction.html">Introductie</a></li>
+                <li><a href="../PI/assignments.html">Opdrachten</a></li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+       <!-- Workshop section with submenu items -->
+        <li>
+          <label for="btn-6" class="show">Workshops +</label>
+          <a href="#">Workshops<i class="fas fa-chevron-circle-down"></i></a>
+          <input type="checkbox" id="btn-6">
+            <ul>
+            <li><a href="../workshopARVR/assignments.html">AR & VR</a></li>
+            <li><a href="../workshopArduino/assignments.html">Arduino</a></li>
+            <li><a href="../workshopCV/assignments.html">Computer Vision</a></li>
+            </ul>
+        </li>
+        <!-- Guestlecture section with submenu items -->
+        <li>
+          <label for="btn-7" class="show">Guest lecture +</label>
+          <a href="#">Guest lecture <i class="fas fa-chevron-circle-down"></i></a>
+          <input type="checkbox" id="btn-7">
+          <ul>
+            <li><a href="../Guestlecture/introduction.html">Introductie</a></li>
+            <li><a href="../Guestlecture/assignments.html">Opdrachten</a></li>
+            <li><a href="../Guestlecture/reflectie.html">Reflectie</a></li>
+          </ul>
+        </li>
+        <!-- Labweken section with submenu items -->
+        <li>
+          <label for="btn-8" class="show">Labweken +</label>
+          <a href="#">Labweken<i class="fas fa-chevron-circle-down"></i></a>
+          <input type="checkbox" id="btn-8">
+          <ul>
+            <li><a href="../labweken/introduction.html">Introductie</a></li>
+            <li><a href="../labweken/product.html">Product</a></li>
+            <li><a href="../labweken/proces.html">Proces</a></li>
+            <li><a href="../labweken/reflectie.html">Reflectie</a></li>
+          </ul>
+        </li>
+      </ul>
+  </nav>
+	<section class="flexbox">
+		<section class="images" id="styleVR">
+			<!-- A-frame assignment image -->
+			<div class="container">
+	  			<img src="../../images/AR:VR/aframe.png" alt="A-frame visual" class="image">
+	  			<div class="textOn">
+	    			<div class="text">A-frame</div>
+	 			</div>
+			</div>
+			<!-- Augmented Reality image -->
+			<div class="container">
+	  			<img src="../../images/AR:VR/unrealEngine.png" alt="Unreal Engine visual" class="image">
+	  			<div class="textOn">
+	    			<div class="text">Unreal Engine</div>
+	 			</div>
+			</div>
+			<!-- Lecture assignment image -->
+			<div class="container">
+	  			<img src="../../images/AR:VR/lecture.png" alt="Lecture visual" class="image">
+	  			<div class="textOn">
+	    			<div class="text"><a href="assignments.html" class="layout-a">Lecture opdrachten</a></div>
+	 			</div>
+			</div>
+		</section>
+		<section class="information">
+			<h1>Virtual & Augmented reality</h1>
+			<h2>Introductie</h2>
+			<p> Deze week (week 1) was het onderwerp virtual reality (VR) en augmented reality (AR). In de lecture is de basis van AR en VR besproken en wat zij in de toekomst kunnen betekenen. Hier op bouwend heb ik concepten uitgeschreven die de toekomst van bepaalde vakgebieden zou kunnen veranderen. Ook heb ik nog onderzoek gedaan naar waar VR en AR al levens verandert. Deze opdracht zijn terug te vinden onder opdrachten. In de workshop heb ik gewerkt met de programma's A-frame en Unreal Engine. Om de programma's beter te begrijpen heb ik een aantal opdrachten gemaakt. Verdiepende opdrachten zijn terug te vinden onder het kopje workshop, sectie AR/VR.</p>
+
+			<p>VR bestaat uit een virtual omgeving, een denkbeeldige wereld. Deze wereld of omgeving is een simulatie vanuit een computer. Een gebruiker kan in deze wereld komen door een VR bril, op deze manier wordt je door het zintuig 'zien' volledig opgenomen in de andere wereld. Een virtual omgeving kan zorgen dat je zintuigen in de maling worden genomen, ook wel immersion genoemd. Dit gebeurt wanneer de gebruiker met het VR systeem in een flow state komt. </p>
+
+			<p>AR voegt een digitale laag toe aan de echte wereld, maar die de gebruiker niet kan zien met het blote oog. De gebruiker heeft dus altijd een camera of andere wearable, zoals een hololens, nodig om de digitale laag te zien. Een voorbeeld is pokemon go. De gebruiker ziet via zijn camera van zijn telefoon de pokemons op de kaart in de buurt verschijnen, waar je in het echt naartoe moet lopen om ze te vangen.</p>
+		</section>
+	</section>
+</body>
+</html>

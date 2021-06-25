@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Portfolio HCI-AssignmentsARVR</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="../../styles/style.css">
+	<link rel="stylesheet" type="text/css" href="../../styles/style-menu.css">
+	<link rel="stylesheet" type="text/css" href="../../styles/style-images.css">
+  <link rel="stylesheet" type="text/css" href="../../styles/styleProces.css">
+	<!-- link for the toggle item -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+	<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+	<script type="text/javascript" src="../../scripts/script.js" defer></script>
+	<!-- Jquery for the menu -->
+	<script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+</head>
+<body>
+  <nav>
+      <div class="logo"><a class="a-layout" href="../../index.html">Doortje de Bles</a></div>
+      <label for="btn" class="icon">
+        <span class="fa fa-bars"></span>
+      </label>
+      <input type="checkbox" id="btn">
+      <ul>
+        <li><a href="../../index.html">Home</a></li>
+        <li>
+          <label for="btn-1" class="show">Hoorcollege opdrachten +</label>
+          <a href="#">Hoorcollege opdrachten<i class="fas fa-chevron-circle-down"></i></a>
+          <input type="checkbox" id="btn-1">
+          <ul>
+            <!-- AR/VR section with submenu items -->
+            <li>
+              <label for="btn-2" class="show">AR & VR +</label>
+              <a href="../AR:VR/introduction.html">AR & VR <i class="fas fa-chevron-circle-down"></i></a>
+              <input type="checkbox" id="btn-2">
+              <ul>
+                <li><a href="../AR:VR/introduction.html">Introductie</a></li>
+                <li><a href="../AR:VR/assignments.html">Opdrachten</a></li>
+              </ul>
+            </li>
+            <!-- Wearables section with submenu items -->
+            <li>
+              <label for="btn-3" class="show">Wearables +</label>
+              <a href="../Wearables/introduction.html">Wearables <i class="fas fa-chevron-circle-down"></i></a>
+              <input type="checkbox" id="btn-3">
+              <ul>
+                <li><a href="../Wearables/introduction.html">Introductie</a></li>
+                <li><a href="../Wearables/assignments.html">Opdrachten</a></li>
+              </ul>
+            </li>
+            <!-- Artificial creatures section with submenu items -->
+            <li>
+              <label for="btn-4" class="show">Artificial creatures +</label>
+              <a href="../AC/introduction.html">Artificial creatures <i class="fas fa-chevron-circle-down"></i></a>
+              <input type="checkbox" id="btn-4">
+              <ul>
+                <li><a href="../AC/introduction.html">Introductie</a></li>
+                <li><a href="../AC/assignments.html">Opdrachten</a></li>
+              </ul>
+            </li>
+            <!-- Playful interaction section with submenu items -->
+            <li>
+              <label for="btn-5" class="show">Playful interaction +</label>
+              <a href="../PI/introduction.html">Playful interaction <i class="fas fa-chevron-circle-down"></i></a>
+              <input type="checkbox" id="btn-5">
+              <ul>
+                <li><a href="../PI/introduction.html">Introductie</a></li>
+                <li><a href="../PI/assignments.html">Opdrachten</a></li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+       <!-- Workshop section with submenu items -->
+        <li>
+          <label for="btn-6" class="show">Workshops +</label>
+          <a href="#">Workshops<i class="fas fa-chevron-circle-down"></i></a>
+          <input type="checkbox" id="btn-6">
+            <ul>
+            <li><a href="../workshopARVR/assignments.html">AR & VR</a></li>
+            <li><a href="../workshopArduino/assignments.html">Arduino</a></li>
+            <li><a href="../workshopCV/assignments.html">Computer Vision</a></li>
+            </ul>
+        </li>
+        <!-- Guestlecture section with submenu items -->
+        <li>
+          <label for="btn-7" class="show">Guest lecture +</label>
+          <a href="#">Guest lecture <i class="fas fa-chevron-circle-down"></i></a>
+          <input type="checkbox" id="btn-7">
+          <ul>
+            <li><a href="../Guestlecture/introduction.html">Introductie</a></li>
+            <li><a href="../Guestlecture/assignments.html">Opdrachten</a></li>
+            <li><a href="../Guestlecture/reflectie.html">Reflectie</a></li>
+          </ul>
+        </li>
+        <!-- Labweken section with submenu items -->
+        <li>
+          <label for="btn-8" class="show">Labweken +</label>
+          <a href="#">Labweken<i class="fas fa-chevron-circle-down"></i></a>
+          <input type="checkbox" id="btn-8">
+          <ul>
+            <li><a href="introduction.html">Introductie</a></li>
+            <li><a href="product.html">Product</a></li>
+            <li><a href="#">Proces</a></li>
+            <li><a href="reflectie.html">Reflectie</a></li>
+          </ul>
+        </li>
+      </ul>
+  </nav>
+	<section class="flexbox">
+		<section class="images" id="styleProces">
+      <div class="container">
+        <video width="320" height="240" controls>
+            <source src="../../videos/labweken/proces1.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+      </div>
+
+      <div class="container">
+          <img src="../../images/labweken/proces2.png" alt="labweken visual" class="image">
+          <div class="textOn">
+            <div class="text">Muren in A-frame</div>
+        </div>
+      </div>
+
+      <div class="container">
+          <img src="../../images/labweken/proces3.png" alt="labweken visual" class="image">
+          <div class="textOn">
+            <div class="text">Muren in A-frame</div>
+        </div>
+      </div>
+
+      <div class="container">
+          <img src="../../images/labweken/proces3.1.png" alt="labweken visual" class="image">
+          <div class="textOn">
+            <div class="text">Muren met package in A-frame</div>
+        </div>
+      </div>
+
+      <div class="container">
+        <video width="320" height="240" controls>
+            <source src="../../videos/labweken/procesV1.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+      </div>
+
+      <div class="container">
+          <img src="../../images/labweken/proces4.png" alt="labweken visual" class="image">
+          <div class="textOn">
+            <div class="text">Omgeving in A-frame</div>
+        </div>
+      </div>
+
+      <div class="container">
+          <img src="../../images/labweken/proces5.png" alt="labweken visual" class="image">
+          <div class="textOn">
+            <div class="text">Glitch in A-frame</div>
+        </div>
+      </div>
+
+      <div class="container">
+          <img src="../../images/labweken/proces7.png" alt="labweken visual" class="image">
+          <div class="textOn">
+            <div class="text">Museum visual A-frame</div>
+        </div>
+      </div>
+
+      <div class="container">
+          <img src="../../images/labweken/proces6.png" alt="labweken visual" class="image">
+          <div class="textOn">
+            <div class="text">look controls a-frame</div>
+        </div>
+      </div>
+
+      <div class="container">
+        <video width="320" height="240" controls>
+            <source src="../../videos/labweken/proces8.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+      </div>
+
+      <div class="container">
+          <img src="../../images/labweken/proces9.png" alt="labweken visual" class="image">
+          <div class="textOn">
+            <div class="text">Museum in Unity</div>
+        </div>
+      </div>
+
+      <div class="container">
+        <video width="320" height="240" controls>
+            <source src="../../videos/labweken/proces10.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+      </div>
+
+      <div class="container">
+          <img src="../../images/labweken/proces10.1.png" alt="labweken visual" class="image">
+          <div class="textOn">
+            <div class="text">Strand kamer</div>
+        </div>
+      </div>
+
+      <div class="container">
+          <img src="../../images/labweken/proces10.2.png" alt="labweken visual" class="image">
+          <div class="textOn">
+            <div class="text">Bos kamer</div>
+        </div>
+      </div>
+
+      <div class="container">
+        <video width="320" height="240" controls>
+            <source src="../../videos/labweken/proces11.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+      </div>
+
+      <div class="container">
+        <video width="320" height="240" controls>
+            <source src="../../videos/labweken/proces12.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+      </div>
+
+      <div class="container">
+        <video width="320" height="240" controls>
+            <source src="../../videos/labweken/proces13.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+      </div>
+
+      <div class="container">
+          <img src="../../images/labweken/proces14.png" alt="labweken visual" class="image">
+          <div class="textOn">
+            <div class="text">Strand kamer</div>
+        </div>
+      </div>
+
+      <div class="container">
+        <video width="320" height="240" controls>
+            <source src="../../videos/labweken/proces14.1.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+      </div>
+
+      <div class="container">
+        <video width="320" height="240" controls>
+            <source src="../../videos/labweken/proces15.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+      </div>
+
+      <h2>Errors</h2>
+
+      <div class="container">
+          <img src="../../images/labweken/error1.png" alt="labweken visual" class="image">
+      </div>
+
+      <div class="container">
+          <img src="../../images/labweken/error2.png" alt="labweken visual" class="image">
+      </div>
+
+      <div class="container">
+          <img src="../../images/labweken/error3.png" alt="labweken visual" class="image">
+      </div>
+
+      <div class="container">
+          <img src="../../images/labweken/error4.png" alt="labweken visual" class="image">
+      </div>
+
+      <div class="container">
+          <img src="../../images/labweken/error5.png" alt="labweken visual" class="image">
+      </div>
+
+		</section>
+		<section class="information">
+			<h1>Labweken</h1>
+			<h2>Proces</h2>
+
+      <p>Om het proces van de labweken zo goed mogelijk vast te leggen, heb ik een soort dagboek bijgehouden. Hier heb ik bijgehouden wat ik elke dag heb gedaan, wat mijn frustraties waren en wanneer iets was gelukt. Dit is onderbouwd met videos en afbeeldingen, om zo een volledig beeld te schetsen van de afgelopen weken. </p>
+
+      <h3>Dag 1</h3>
+
+			<p> Vandaag ben ik begonnen met de labweken, waar ik eigenlijk best zenuwachtig voor was. Ik wist niet wat ik moest verwachten, omdat het de bedoeling is dat je zelf een project bedenkt en met welk programma je dit doet. Toch is mij en mijn partner gelukt om een goede planning te maken en een goede stap in de juiste richting te zetten. </p>
+
+			<p>Na de introductie hoorcolleges hebben wij gelijk een trello bord aangemaakt, zodat we een goede planning konden maken. Daarnaast een sectie met documenten, zodat wij onze research en links naar interessante websites op één plek hebben staan. Dit was namelijk voor ons de eerst logische stap: onderzoek doen. Onderzoek naar welke programma’s we kunnen gebruiken en onderzoek naar interessante projecten en websites. </p>
+
+      <p>Na het onderzoek ben ik begonnen met het uitproberen van een nieuw programma, namelijk unity. Het lijkt erg op een programma wat we hebben gehad tijdens de workshops, namelijk Unreal Engine. Toch lijkt unity gebruiksvriendelijker, dus wilde ik dat graag uittesten. Ik ben begonnen met een tutorial van een Lego game en voor nu lijkt het alsof het inderdaad makkelijker in gebruik is dan Unreal Engine.</p>
+
+      <p>Ook ben ik gaan nadenken over wat wij kunnen gaan maken en ben een aantal concepten gaan uitdenken. Om half 5 zijn mijn partner en ik weer bij elkaar gekomen om onze concepten en ontwikkelingen te bespreken. Toen zijn we tot de conclusie gekomen om een VR systeem te maken waarin je in een schilderij rondloopt, terwijl het geluid meebeweegt met de bewegingen van de gebruiker. </p>
+
+      <h3>onderzoek</h3>
+      <p>Wij hebben al gewerkt met unreal engine en a-frame, maar is dit de beste manier op een VR systeem te maken of zijn er nog andere opties? In dit onderzoek gaan wij dan bekijken en bepalen we welke kant en welk programma we gaan gebruiken.</p>
+
+      <p>Unity lijkt erg op Unreal engine, want het is ook een game programma. Ook hebben ze beide een goede uitleg hoe het programma werkt, zodat je echt de kans krijgt om nieuwe dingen te leren. Unity heeft een goede uitlegvideo (wel 30 uur) die uitlegt hoe je een vr omgeving kan creëren. Online wordt er gesproken over dat unity makkelijker te begrijpen is dan Unreal Engine, maar dat bijvoorbeeld de graffics in Unreal engine wel beter zijn. Ik denk dat ik het zelf moet ervaren om echt een beslissing te kunnen maken. </p>
+
+      <p>Om te kijken of ik unity een fijn programma vind, heb ik na het downloaden van de software een tutorial gevolgd van lego. Hier leer je de basis kennen van unity en hoe en wat de functionaliteiten zijn en werken. </p>
+
+      <h3>Bronnen</h3>
+      <a href="https://learn.unity.com/course/create-with-vr">Unity and VR</a>
+      <a href="https://circuitstream.com/blog/unity-vs-unreal/">Unity VS Unreal</a>
+      <a href="https://docs.unrealengine.com/4.26/en-US/SharingAndReleasing/XRDevelopment/VR/GoogleVR/Debugging/">VR in unreal engine</a>
+      <a href="https://developers.google.com/vr/develop/unity/get-started-android">Unity in Android</a>
+      <a href="https://learn.unity.com/search?k=%5B%22tag%3A5900b95a090915001e654b47%22%5D">Unity in AR and VR</a>
+
+      <h3>Concepten bedenken</h3>
+      <h4>BeeAlone</h4>
+      <p>Door de coronacrisis zijn veel mensen die samenwonen tot de realisatie gekomen dat het soms wel goed is om even een momentje voor jezelf te hebben. Of je nou even tot rust wil komen of juist even uit je plaat wil gaan, het kan allemaal. Door te gaan zitten realiseert het systeem dat je rust wil, dus zal een rustige plek uitzoeken zoals bijvoorbeeld een bos. Door een koptelefoon of speakers worden ook de geluiden aangepast op voorkeur. Zo heb je dus echt het idee dat je even in een andere wereld bent. Als je meer gaat bewegen kom je in een drukkere situatie terecht, zoals bijvoorbeeld een club. Ook hier worden de geluiden aangepast. </p>
+
+      <h4>Meisje met de parel</h4>
+      <p>Soms heb je geen zin om naar een museum te gaan en soms geeft het ook geen voldoening. Hoe leuk zou het zijn als je door een schilderij kan lopen, met uitleg over wat voor verf is gebruikt en hoe. Zoals bijvoorbeeld door de nachtwacht kunnen lopen of naast het meisje met de parel kunnen staan. </p>
+
+      <h4>PlantYourself</h4>
+      <p>Als je op een studentkamer woont of geen tuin hebt, dan kan de natuur soms niet is bereikbaars zijn. Om het voor iedereen bereikbaar en laagdrempelig te houden, kan je met dit VR systeem je eigen planten verbouwen. Deze kunnen over tijd groeien. </p>
+
+      <h3>Dag 2</h3>
+      <p>Vandaag had ik voor het eerst les op de hogeschool. Dit was erg leuk en wilde snel aan de slag met het project. Ik heb met William Beekhuis ons idee besproken en hij kwam op goede ideeën. In plaats van een persoon rond te laten lopen, kan degene naar het schilderij kijken en wordt er een loadingbar getoond en als deze vol is gaat de gebruiker naar het volgende scherm. Op deze manier loop je niet het risico dat gebruikers ziek worden of dat zij ergens tegen aan lopen. </p>
+
+      <p>Na deze bespreking ben ik verder gegaan in Unity om mijn eerste VR project te maken. Het opstarten van het VR systeem duurde erg lang. Door veel te googlen en youtube af te struinen, ben ik er achter gekomen dat je een oudere versie nodig hebt om een low-end VR bril te laten werken. Doordat het geheugen op mijn computer ook op begon te raken, heb ik de andere versies moeten verwijderen, zodat ik daarna de oudere versie kon downloaden. </p>
+
+      <p>Na de les ben ik thuis verder gegaan, maar kwam ik nog steeds errors tegen. In de helpdesk heb ik met Paul (docent) besproken wat ons doel van het project was en besloten dat wij het via een website wilde publiceren. Dit is makkelijk om te doen in A-frame, dus gaan wij over op dit programma. </p>
+
+      <p>Omdat wij het idee hadden dat wij al een beetje achterliepen zijn wij gelijk bij elkaar gekomen om aan A-frame te werken en onze vervolgstappen uit te denken. We hebben samen een glitch document gemaakt, waarin we dus ook samen kunnen werken aan het project. Toen hebben we de muren en grond al gemaakt. Na onze bijeenkomst ben ik zelf nog even verder gegaan en heb ik uitgetest hoe je een environment kan toevoegen. Dit is na een aantal pogingen gelukt. In de uitleg staat namelijk dat je dit component moet toevoegen aan e-entity, maar nadat dit niet werkte heb ik een video gevonden waar stond dat je het moest toevoegen aan a-scene. Dit werkte wel. </p>
+
+      <h3>Bronnen</h3>
+      <a href="https://docs.unity3d.com/2020.3/Documentation/Manual/XR.html">Unity and VR</a>
+      <a href="https://docs.unity3d.com/2020.3/Documentation/Manual/configuring-project-for-xr.html">Unity VR</a>
+      <a href="https://developers.google.com/cardboard/develop/unity/quickstart/">Cardboard VR in unity</a>
+      <a href="https://www.youtube.com/watch?v=qZzhXHqXM-g">Youtubevideo over cardboard VR and unity</a>
+      <a href="https://www.youtube.com/watch?v=lU1XBhk9NCI">Youtubevideo over cardboard VR and unity</a>
+      <a href="https://docs.unity3d.com/530/Documentation/Manual/android-sdksetup.html">SDK setup</a>
+      <a href="https://aframe.io/docs/1.2.0/introduction/vr-headsets-and-webvr-browsers.html">A-frame VR</a>
+      <a href="https://glitch.com/dashboard?group=owned&sortColumn=boost&sortDirection=DESC&page=1&showAll=false&filterDomain=">Glitch online programma waar we met A-frame kunnen werken</a>
+
+      <h3>Dag 3</h3>
+      <p>Vandaag heb ik veel gedaan en eindig ik de dag met een voldaan gevoel. S’ochtends was ik gelijk begonnen met de muren verbeteren. Ik had namelijk op github een package gevonden waarin je mooie muren kan maken, zodat je geen boxen (a-box) hoeft te gebruiken. Het maken van de kamers had ik wel snel onder controle, maar de deuren vond ik nog wel lastig. Ook moest ik een grote kamer maken, die de buitenmuren moesten vormen, maar dit was ook nog wel lastig om de juiste posities te vinden. Door een ‘outside’ attribuut toe te voegen, is het museum nu dicht in plaats van open. Eerst kon je er namelijk doorheen kijken. </p>
+
+      <p>Wel merkte ik dat ik door alle muren heen kon lopen. Ik wist niet of dit hoort, dus ik was naar de online helpdesk gegaan. Jorn, studentenhulp, wist het helaas ook niet zeker. Toen heb ik besloten om dit te laten en dit morgen te vragen in de les. </p>
+
+      <p>Na een korte pauze ben ik doorgegaan met de vloer, omgeving en het dak. Ik heb lang over de vloer gedaan, omdat de code vanuit de package niet werkte. Hier heb ik een aantal uur aan gezeten, maar ik kwam er zelf niet uit. Toen ben ik samengekomen met Michelle en hebben we besloten om een a-phere te maken en dat als vloer te gebruiken, wat werkte. Daarna hebben we een dak toegevoegd met de primitive rw-ceiling, vanuit de package. </p>
+
+      <p>Ook had ik tijdens een research moment een package van environment gevonden op github, dus deze hebben we toen ook toegevoegd. Hier ontstond een probleem met de vloer, omdat de ‘hills’ attributen de grond oneven maakte. We hebben meerdere attributen proberen toe te voegen, maar helaas werkte het niet. Hiernaast ging glitch moeilijk doen, waarschijnlijk omdat wij er met z’n tweeen in aan het werken waren. Hierdoor besloten dat wij morgen tijdens de les weer verder zouden werken en vanavond nog apart. </p>
+
+      <p>Na een korte pauze en mijn laptop te hebben herstart, heb ik nog een keer geprobeerd om de juiste attributen aan de environment toe te voegen. Dit is uiteindelijk gelukt met playerArea=2, wat zorgt dat het speelveld van de speler wordt vergroot. Daarna heb ik op github gevonden dat er een update binnen A-frame er voor zorgt dat de primitive van de vloer niet werkt. Hierna heb ik de a-phere aangepast, door een repeat 5 5 toe te voegen. Dit zorgt voor een echt marmere vloer. Al met al een goede dag! </p>
+
+      <h3>Bronnen</h3>
+        <a href="https://github.com/omgitsraven/aframe-room-component">Room package voor a-frame</a>
+        <a href="https://github.com/n5ro/aframe-extras/tree/master/src/primitives">Primitive van de oceaan</a>
+        <a href="https://github.com/feiss/aframe-environment-component/">Omgevingscomponent</a>
+
+      <h3>Dag 4</h3>
+      <p>Vandaag was een iets mindere dag. Dit komt waarschijnlijk omdat ik woensdag te hard had gewerkt, waardoor ik migraine heb gekregen. Hierdoor kon ik mij vandaag moeilijk focussen. Na de kick-off ben ik gelijk begonnen met het veranderen van de kleuren van het museum. Dit lukte niet, want er ontstonden allemaal verschillende kleuren. Ik heb geprobeerd uit te zoeken waar de error ontstond, door bijvoorbeeld in de package van de muren te kijken. Doordat ik het niet kon vinden, ben ik naar de helpdesk gegaan. Hier heeft Chris, docent, mij geprobeerd te helpen maar wij kwamen er samen ook niet uit. Wel waren we tot de conclusie gekomen dat het ook aan de lichtval kon komen. Dit wil ik dus nog gaan aanpassen, maar waarschijnlijk morgen. </p>
+
+      <p>Na de bespreking in de helpdesk ben ik naar school gegaan, omdat we daar de laatste les van de week hadden. Hier heb ik samen met Michelle een planning gemaakt wat nog moest gebeuren. Hierna is Michelle aan de slag gegaan met de portals, wat zorgt dat de gebruiker door een schilderij kan stappen. Ik ben aan de slag gegaan met dat de gebruiker niet meer door de muren kan lopen. Hier ben ik een aantal uur mee bezig geweest, maar helaas werkte alle opties die ik probeerde niet. Omdat het Michelle ook niet lukte met de portals ben ik haar gaan helpen om dit verder uit te zoeken. Uiteindelijk zijn we er niet uitgekomen en heb ik besloten om voor vandaag te stoppen, goed rust te nemen en morgen weer met goede moed verder te gaan. </p>
+
+      <h3>Bronnen</h3>
+        <a href="https://github.com/fernandojsg/aframe-teleport-controls">A-frame controls</a>
+        <a href="https://stackoverflow.com/questions/43882464/how-to-move-around-with-a-frame-using-google-cardboards-button">Cardboard in A-frame</a>
+        <a href="https://github.com/kennardconsulting/aframe-reset-on-collision">collision</a>
+
+
+      <h3>Dag 5</h3>
+      <p>Na gisteren heb ik het idee dat ik vandaag hard aan de bak moet, dus na de kick-off ben ik gelijk verder gegaan met het uitzoeken van de camera. We willen dat de gebruiker op de desktop kan klikken waar je naartoe wil en met de mobiel en VR bril dat je transporteert. Omdat dit iets is wat wij niet in de lessen hebben geleerd, heb ik hier moeite mee met het juiste ‘antwoord’ te vinden. Hier ben ik bijna de hele dag mee bezig geweest.</p> 
+
+      <p>Omdat de helpdesk te druk was en geen antwoord kregen op onze vraag, hebben we besproken wat we anders kunnen doen. Toen kwamen we op het idee dat we ook AR kunnen gebruiken. Via de camera van een telefoon schilderijen presenteren en dat je daar in kan stappen. Dan moeten we wel weer terugstappen op unity, dus hier gaan we het weekend naar kijken. Ook had ik de vraag over de controls binnen SIM (studievereniging) gevraagd en had verschillende goede antwoorden gekregen, maar wel tot de conclusie gekomen dat we terug moeten naar unity of arduino moeten gaan gebruiken. Dus dat gaan wij bekijken. </p>
+
+      <h3>Bronnen</h3>
+        <a href="https://www.npmjs.com/package/aframe-aabb-collider-component?activeTab=readmehttps://www.npmjs.com/package/aframe-aabb-collider-component?activeTab=readme">collision</a>
+        <a href="https://stackoverflow.com/questions/43503796/move-camera-in-aframe-with-physics-engine">verplaats camera</a>
+        <a href="https://www.thedart76.com/webvr/experiments-and-testing/blink-teleportation/blink-teleportation.html">beweegt camera als je op voetjes klikt</a>
+        <a href="https://www.youtube.com/watch?v=TgN-WL2dpRY">Youtubevideo van VR in A-frame</a>
+
+      <h3>Weekend</h3>
+      <p>Dit weekend ben ik op youtube gaan zoeken naar uitlegvideo’s over unity en AR. Als ander idee hadden wij namelijk om een AR systeem te maken waarbij je door een deur loopt en in een andere wereld terecht komt. Via deze deur kom je in een museum en kan je schilderijen bekijken. Het doel is om te zorgen dat je ook door de schilderijen kan lopen met de muziek die wij in onze gedachten hadden. Het museum en de deurportal is al gelukt, en is het voor aankomende week belangrijk om de andere kamers te maken. Daarnaast het geluid aansluiten en schoonheidsfoutjes oplossen. Doordat ik nu een heel weekend in unity heb gewerkt snap ik het wel een beetje. Ook helpen de youtubevideo’s heel erg, omdat deze erg goed uitleggen wat elk component doet. Nu heb ik weer zin in komende week!</p>
+
+      <h3>Bronnen</h3>
+        <a href="https://www.youtube.com/playlist?list=PL2hmCdxlIIutHcoKJweDBGOZTi3CMUicghttps://www.youtube.com/playlist?list=PL2hmCdxlIIutHcoKJweDBGOZTi3CMUicg">playlist over AR systeem in Unity</a>
+        <a href="https://learn.unity.com/tutorial/setting-up-the-development-environment-for-ar-applications#5fd69270edbc2a729fcdc85e">Unity tutorial</a>
+
+      <h3>Dag 6</h3>
+      <p>Na de kick-off van vandaag ben ik gelijk begonnen met verder werken in Unity. Ik heb een nieuw document aangemaakt en ben daar opnieuw het museum gaan maken, omdat er een paar fouten zaten in het andere document (zie in het filmpje bijvoorbeeld de muren die niet aansluiten). Alles lukte wel goed en ging sneller dan in het weekend, behalve de deur daar ben ik lang mee bezig geweest. Je moet namelijk beide kanten van de muur geselecteerd houden en dan een ‘gat’ maken. Doordat ik iets verkeerd deed, pakte hij hem niet waardoor dit echt tot veel bloed, zweet en tranen heeft geleid.</p> 
+
+      <p>Uiteindelijk was het gelukt en heb ik nog twee andere ruimtes toegevoegd zodat de gebruiker in het schilderij kan stappen. Dit ging wel makkelijk, doordat ik het eerste blok heb gekopieerd en hierin aanpassingen heb gemaakt. Daarna ben ik samen gekomen met Michelle en hebben we besproken wat we nog moeten doen. Ik was al gaan zoeken naar informatie om het geluid toe te voegen. Ik ga morgen kijken of ik de app werkend kan krijgen en Michelle gaat kijken naar het geluid en morgen gaan we samen de hele dag werken op school.</p>
+
+      <h3>Bronnen</h3>
+        <a href="https://www.youtube.com/playlist?list=PL2hmCdxlIIutHcoKJweDBGOZTi3CMUicghttps://www.youtube.com/playlist?list=PL2hmCdxlIIutHcoKJweDBGOZTi3CMUicg">playlist over AR systeem in Unity</a>
+        <a href="https://www.youtube.com/watch?v=LrchScd806w">geluid wat harder wordt als je dichtbij komt</a>
+        <a href="https://www.youtube.com/watch?v=eQphjWreQ0U">Andere video over geluid</a>
+
+      <h3>Dag 7</h3>
+      <p>Vandaag had ik weer les op school en dus de ruimte om het project te bespreken. Ik heb gesproken met Tim en William (docenten) over hoe ik dingen het beste aan kon pakken. Ik had namelijk best veel stress of ik het project wel op tijd af zou krijgen in de tijd die we kregen en de hoeveelheid dingen die ik nog moest doen. Na dit gesprek voelde ik me al veel beter en ben ik gaan verder werken in Unity. </p>
+
+      <p>Simon (medestudent) heeft mij geholpen met het toevoegen van een camera, waardoor ik het resultaat al een soort van kon zien. Daarna wilde ik uitzoeken hoe het werkt op het gemaakte werk te publiceren en dat bleek nog lastiger dan gedacht. Eerst heb ik het zelf geprobeerd, maar uiteindelijk heb ik meerdere tutorials gekeken hoe ik dit moest maken. </p>
+
+      <p>Omdat er steeds errors ontstonden en ik niet snapte waardoor ben ik naar de helpdesk gegaan om hulp te krijgen. Waarschijnlijk komt het door het programma wat ik ‘s ochtends met Simon had geïnstalleerd (vuforia), crasht met ARcore. Dus ik moet vuforia verwijderen en ARCore alleen toevoegen en toepassen in de scene. Doordat ik nog steeds tegen errors aanliep was ik een beetje gefrustreerd, maar door goed online te zoeken heb ik uiteindelijk de oplossing gevonden. </p>
+
+      <p>Het lag aan bepaalde plugins die crashte met de andere packages. Deze heb ik er toen uitgehaald, waardoor ik de app kon draaien op mijn telefoon. Helaas kwam ik er toen achter dat het lopen nog niet werkte, dus daar ga ik morgen verder aan. </p>
+
+      <h3>Bronnen</h3>
+        <a href="https://developer.vuforia.com/">vuforia camera</a>
+        <a href="https://library.vuforia.com/articles/Training/getting-started-with-vuforia-in-unity.html">vuforia in Unity</a>
+        <a href="https://www.youtube.com/watch?v=KqzlGApWPEA">Youtubevideo van AR in unity</a>
+
+      <h3>Dag 8</h3>
+      <p>Vandaag na de kick-off gelijk met michelle afgesproken en besproken wat we vandaag gaan doen. Ik had gisteravond al video’s en informatie gezocht over het lopen door het systeem en vandaag ga ik daar verder aan knutselen. Ik snap niet helemaal of de bewegingen gekoppeld moeten worden aan de camera of dat ik een los ‘loop’ element kan toevoegen. Ik ben hier de hele ochtend mee bezig geweest, maar ik kwam alleen maar errors tegen. </p>
+
+      <p>Hierdoor was ik om 1 uur gelijk naar de helpdesk gegaan, maar Chris, docent, kon mij helaas ook niet helpen. Wel gaf hij de tip om nog goed naar de errors online te kijken en kwam ik tot de conclusie dat het ligt aan de versie waarin ik heb gewerkt.  </p>
+
+      <p>Tussendoor hebben michelle en ik ons ingeschreven voor de fysieke les van morgen. Zo kunnen we het ook nog aan de docenten vragen wat ons probleem zou kunnen zijn. </p>
+
+      <p>Om wel nog een app te kunnen creëren wilde ik uitzoeken welke versie wel nog werkte. Hierdoor heb ik na overleg met docenten geprobeerd de nieuwe versie te downloaden en een tutorial te volgen van unity, zodat ik zou begrijpen hoe ik bewegingen moest coderen. In eerste instantie snapte ik alles, maar toen ik bij het coderen aankwam vond ik dat heel lastig. Ik kwam veel bugs tegen, maar uiteindelijk was dat mijn eigen schuld doordat ik niet goed naar alle hoofdletters had gekeken. </p>
+
+      <p>Toch is het alsnog niet gelukt omdat ik ben geëindigd met een zwart scherm. Dat vond ik toch wel vervelend, want ik wilde het vandaag graag gemaakt hebben. Ik wilde voor de dag stoppen, maar toen raakte ik weer in gesprek met Michelle over ons project. Toen hebben we besloten om in haar document verder te werken, omdat zij de scene groter had gemaakt en al een first-person camera had toegevoegd. </p>
+
+      <p>Omdat onze collab binnen unity niet werkt, heeft Michelle haar document via googledrive gedeeld. Toen ben ik er nog in gaan werken, door bijvoorbeeld de schilderijen toe te voegen. Toen merkte ik echt dat ik moe was, omdat ik het op de verkeerde manier had gedaan. Morgen moet ik dit dus nog even rechtzetten. </p>
+
+      <p>Morgen gaan we naar de fysieke les om nog met de docenten te bespreken wat ons probleem zou kunnen zijn en hoe we dat zouden kunnen oplossen. Maar ik ben in elk geval blij dat onze virtuele scene bijna helemaal af is en werkt!</p>
+
+      <h3>Bronnen</h3>
+      <a href="https://learn.unity.com/tutorial/instantiating-ar-models-into-a-virtual-scene#6036d72cedbc2a4b6f0eb637">Tutorial voor Unity</a>
+     
+
+      <h3>Dag 9</h3>
+      <p>Vandaag was de laatste dag van de labweken en zijn Michelle en ik vroeg naar school gegaan om de laatste puntjes op de i te zetten en het project af te maken. Tijdens de les is het niet meer gelukt om een app werkend te krijgen, dus besloten we ons te focussen op het afmaken van de scene.</p>
+
+      <p>Gisteren was het verkeerd gegaan met het invoegen van de schilderijen, omdat ik vergeten was om een box toe te voegen. De box zorgt ervoor dat de schilderijen een beetje uitsteken, zoals een echt schilderij. Dit heb ik vandaag nog goed gemaakt. Hierna besloten wij dat er nog meer schilderijen bij moesten om de scene echt helemaal af te maken. Ook heb ik nog de vloer aangepast en gezorgd dat de kamers mooi aansloten. </p>
+
+      <p>Ook moesten de scenes van de aparte kamers nog afgemaakt worden, dus dit heb ik daarna gedaan. Michelle heeft afbeeldingen online gezocht en ik heb deze toegevoegd aan de scene. Hierna hebben we nog een video gemaakt voor de presentatie. </p>
+
+		</section>
+	</section>
+</body>
+</html>

@@ -1,0 +1,15 @@
+@media only screen and (min-width: 1024px) {
+	#wearableIntro{
+		width: 35%;
+		height: 1900px;
+    	overflow-y: scroll;
+	}
+
+	.information {
+		width: 60%;
+	}
+
+	#intro{
+		width: 35%;
+	}
+}

@@ -1,0 +1,665 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Portfolio HCI-AssignmentsArduino</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="../../styles/style.css">
+	<link rel="stylesheet" type="text/css" href="../../styles/style-menu.css">
+	<link rel="stylesheet" type="text/css" href="../../styles/style-images.css">
+	<link rel="stylesheet" type="text/css" href="../../styles/styleArduino.css">
+	<!-- link for the toggle item -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+	<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+	<script type="text/javascript" src="../../scripts/script.js" defer></script>
+	<!-- Jquery for the menu -->
+	<script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+</head>
+<body>
+	<nav>
+      <div class="logo"><a class="a-layout" href="../../index.html">Doortje de Bles</a></div>
+      <label for="btn" class="icon">
+        <span class="fa fa-bars"></span>
+      </label>
+      <input type="checkbox" id="btn">
+      <ul>
+        <li><a href="../../index.html">Home</a></li>
+        <li>
+          <label for="btn-1" class="show">Hoorcollege opdrachten +</label>
+          <a href="#">Hoorcollege opdrachten<i class="fas fa-chevron-circle-down"></i></a>
+          <input type="checkbox" id="btn-1">
+          <ul>
+            <!-- AR/VR section with submenu items -->
+            <li>
+              <label for="btn-2" class="show">AR & VR +</label>
+              <a href="../AR:VR/introduction.html">AR & VR <i class="fas fa-chevron-circle-down"></i></a>
+              <input type="checkbox" id="btn-2">
+              <ul>
+                <li><a href="../AR:VR/introduction.html">Introductie</a></li>
+                <li><a href="../AR:VR/assignments.html">Opdrachten</a></li>
+              </ul>
+            </li>
+            <!-- Wearables section with submenu items -->
+            <li>
+              <label for="btn-3" class="show">Wearables +</label>
+              <a href="../Wearables/introduction.html">Wearables <i class="fas fa-chevron-circle-down"></i></a>
+              <input type="checkbox" id="btn-3">
+              <ul>
+                <li><a href="../Wearables/introduction.html">Introductie</a></li>
+                <li><a href="../Wearables/assignments.html">Opdrachten</a></li>
+              </ul>
+            </li>
+            <!-- Artificial creatures section with submenu items -->
+            <li>
+              <label for="btn-4" class="show">Artificial creatures +</label>
+              <a href="../AC/introduction.html">Artificial creatures <i class="fas fa-chevron-circle-down"></i></a>
+              <input type="checkbox" id="btn-4">
+              <ul>
+                <li><a href="../AC/introduction.html">Introductie</a></li>
+                <li><a href="../AC/assignments.html">Opdrachten</a></li>
+              </ul>
+            </li>
+            <!-- Playful interaction section with submenu items -->
+            <li>
+              <label for="btn-5" class="show">Playful interaction +</label>
+              <a href="../PI/introduction.html">Playful interaction <i class="fas fa-chevron-circle-down"></i></a>
+              <input type="checkbox" id="btn-5">
+              <ul>
+                <li><a href="../PI/introduction.html">Introductie</a></li>
+                <li><a href="../PI/assignments.html">Opdrachten</a></li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+       <!-- Workshop section with submenu items -->
+        <li>
+          <label for="btn-6" class="show">Workshops +</label>
+          <a href="#">Workshops<i class="fas fa-chevron-circle-down"></i></a>
+          <input type="checkbox" id="btn-6">
+            <ul>
+		        <li><a href="../workshopARVR/assignments.html">AR & VR</a></li>
+		        <li><a href="../workshopArduino/assignments.html">Arduino</a></li>
+		        <li><a href="../workshopCV/assignments.html">Computer Vision</a></li>
+          	</ul>
+        </li>
+        <!-- Guestlecture section with submenu items -->
+        <li>
+          <label for="btn-7" class="show">Guest lecture +</label>
+          <a href="#">Guest lecture <i class="fas fa-chevron-circle-down"></i></a>
+          <input type="checkbox" id="btn-7">
+          <ul>
+            <li><a href="../Guestlecture/introduction.html">Introductie</a></li>
+            <li><a href="../Guestlecture/assignments.html">Opdrachten</a></li>
+            <li><a href="../Guestlecture/reflectie.html">Reflectie</a></li>
+          </ul>
+        </li>
+        <!-- Labweken section with submenu items -->
+        <li>
+          <label for="btn-8" class="show">Labweken +</label>
+          <a href="#">Labweken<i class="fas fa-chevron-circle-down"></i></a>
+          <input type="checkbox" id="btn-8">
+          <ul>
+            <li><a href="../labweken/introduction.html">Introductie</a></li>
+            <li><a href="../labweken/product.html">Product</a></li>
+            <li><a href="../labweken/proces.html">Proces</a></li>
+            <li><a href="../labweken/reflectie.html">Reflectie</a></li>
+          </ul>
+        </li>
+      </ul>
+  </nav>
+	<section class="flexbox">
+		<section class="images" id="Arduino-assignments">
+			<!-- A-frame assignment images and videos-->
+			<div class="container">
+	  			<img src="../../images/Arduino/foto1.jpg" alt="Arduino visual" class="image">
+	  			<div class="textOn">
+	    			<div class="text">Ledjes</div>
+	 			</div>
+			</div>
+			
+			<div class="container">
+				<video width="320" height="240" controls>
+  					<source src="../../videos/Arduino/Opdracht3B.mp4" type="video/mp4">
+					Your browser does not support the video tag.
+				</video>
+			</div>
+
+			<div class="container">
+				<video width="320" height="240" controls>
+  					<source src="../../videos/Arduino/Opdracht4C.mp4" type="video/mp4">
+					Your browser does not support the video tag.
+				</video>
+			</div>
+
+			<div class="container">
+	  			<img src="../../images/Arduino/foto3.jpg" alt="Arduino visual" class="image">
+	  			<div class="textOn">
+	    			<div class="text">Ledjes</div>
+	 			</div>
+			</div>
+
+			<div class="container">
+				<video width="320" height="240" controls>
+  					<source src="../../videos/Arduino/Opdracht6C.mp4" type="video/mp4">
+					Your browser does not support the video tag.
+				</video>
+			</div>
+
+			<div class="container">
+				<video width="320" height="240" controls>
+  					<source src="../../videos/Arduino/Opdracht7A.mp4" type="video/mp4">
+					Your browser does not support the video tag.
+				</video>
+			</div>
+
+			<div class="container">
+				<video width="320" height="240" controls>
+  					<source src="../../videos/Arduino/opdracht71.mp4" type="video/mp4">
+					Your browser does not support the video tag.
+				</video>
+			</div>
+	
+			<div class="container">
+	  			<img src="../../images/Arduino/foto4.jpg" alt="Arduino visual" class="image">
+	  			<div class="textOn">
+	    			<div class="text">Potmeter and Led Matrix</div>
+	 			</div>
+			</div>
+
+			<div class="container">
+				<video width="320" height="240" controls>
+  					<source src="../../videos/Arduino/opdracht72.mp4" type="video/mp4">
+					Your browser does not support the video tag.
+				</video>
+			</div>
+
+			<div class="container">
+				<video width="320" height="240" controls>
+  					<source src="../../videos/Arduino/opdracht8.mp4" type="video/mp4">
+					Your browser does not support the video tag.
+				</video>
+			</div>
+
+			<div class="container">
+				<video width="320" height="240" controls>
+  					<source src="../../videos/Arduino/opdracht91.mp4" type="video/mp4">
+					Your browser does not support the video tag.
+				</video>
+			</div>
+
+			<div class="container">
+				<video width="320" height="240" controls>
+  					<source src="../../videos/Arduino/opdracht92.mp4" type="video/mp4">
+					Your browser does not support the video tag.
+				</video>
+			</div>
+
+			<div class="container">
+				<video width="320" height="240" controls>
+  					<source src="../../videos/Arduino/opdracht93.mp4" type="video/mp4">
+					Your browser does not support the video tag.
+				</video>
+			</div>
+
+			<div class="container">
+				<video width="320" height="240" controls>
+  					<source src="../../videos/Arduino/Opdracht9.mp4" type="video/mp4">
+					Your browser does not support the video tag.
+				</video>
+			</div>
+
+			<div class="container">
+				<video width="320" height="240" controls>
+  					<source src="../../videos/Arduino/opdracht102.mp4" type="video/mp4">
+					Your browser does not support the video tag.
+				</video>
+			</div>
+
+			<div class="container">
+				<video width="320" height="240" controls>
+  					<source src="../../videos/Arduino/Opdracht11.mp4" type="video/mp4">
+					Your browser does not support the video tag.
+				</video>
+			</div>
+
+			<div class="container">
+				<video width="320" height="240" controls>
+  					<source src="../../videos/Arduino/opdracht12.mp4" type="video/mp4">
+					Your browser does not support the video tag.
+				</video>
+			</div>
+
+			<div class="container">
+				<video width="320" height="240" controls>
+  					<source src="../../videos/Arduino/opdracht122.mp4" type="video/mp4">
+					Your browser does not support the video tag.
+				</video>
+			</div>
+
+			<div class="container">
+				<video width="320" height="240" controls>
+  					<source src="../../videos/Arduino/opdracht13.mp4" type="video/mp4">
+					Your browser does not support the video tag.
+				</video>
+			</div>
+
+			<div class="container">
+				<video width="320" height="240" controls>
+  					<source src="../../videos/Arduino/Opdracht14.mp4" type="video/mp4">
+					Your browser does not support the video tag.
+				</video>
+			</div>
+
+			<div class="container">
+				<video width="320" height="240" controls>
+  					<source src="../../videos/Arduino/opdracht142.mp4" type="video/mp4">
+					Your browser does not support the video tag.
+				</video>
+			</div>
+
+			<div class="container">
+				<video width="320" height="240" controls>
+  					<source src="../../videos/Arduino/opdracht151.mp4" type="video/mp4">
+					Your browser does not support the video tag.
+				</video>
+			</div>
+
+			<div class="container">
+				<video width="320" height="240" controls>
+  					<source src="../../videos/Arduino/opdracht152.mp4" type="video/mp4">
+					Your browser does not support the video tag.
+				</video>
+			</div>
+
+			<div class="container">
+				<video width="320" height="240" controls>
+  					<source src="../../videos/Arduino/opdracht153.mp4" type="video/mp4">
+					Your browser does not support the video tag.
+				</video>
+			</div>
+		</section>
+		<section class="information">
+			<h1>Workshop Arduino</h1>
+			<h2>Introductie</h2>
+
+			<p>In week twee ben ik begonnen aan Arduino. Arduino is een klein board met programmeerbare elektronica. Met de Arduino kan je verschillende componenten aansturen, zoals bijvoorbeeld ledlampjes of bepaalde sensoren. Door het softwareprogramma van Arduino te downloaden op je laptop, kan je de Arduino koppelen aan je laptop. Zo kan je er voor zorgen dat de code die je maakt op je laptop, wordt uitgevoerd door de Arduino. Alle opdrachten heb ik gefilmd en zijn op chronologische volgorde aan de linkerzijde van de pagina te bekijken. Bepaalde filmpjes hebben een extra ingesproken verduidelijking, zodat iedereen ongeveer kan begrijpen wat ik heb gedaan. Ook heb ik bij bepaalde opdrachten ook de code en tekst bijgevoegd, omdat deze opdrachten belangrijk waren om Arduino te begrijpen.</p>
+
+			<h3>Blinking</h3>
+			<p>Om te kijken of de Arduino werkt, ben ik begonnen met een voorbeeld vanuit Arduino zelf. Op het board zie je om de seconden het led label blinken. Nadat ik dit had gedaan ben ik een echt led-lichtje gaan toevoegen op het breadboard. Dit is een board waar je de componenten (tijdelijk) kan bouwen, zoals een ledlichtje. </p>
+
+			<p>Tijdens de les waren een aantal dingen naar voren gekomen die handig zijn om te weten. De stroom moet altijd naar ground toe en dat je altijd weerstand moet toevoegen om bijvoorbeeld het ledje te besparen, anders gaat deze kapot. Daarnaast geeft een ledje maar op een manier stroom en dat is van de lange poot naar de korte poot. Ik heb deze fout best vaak gemaakt, waardoor ik dacht dat de constructie niet werkte. Door het ledje dan om te draaien, loste ik bijna elke keer het probleem op. </p>
+
+			<p>Ik heb geoefend met de led sneller en minder snel te laten knipperen en dat de led langer uitstaat dan aan. Daarna heb ik het uitgebreid door met twee ledjes te oefenen. Eerst heb ik geoefend met de ledjes die blinken op hetzelfde moment, sneller knipperen, maar daarna ook dat ze om de beurt knipperen. Dit heb ik gedaan door de delay te verhogen of te verlagen en de functie digitalWrite() op high (led aan) of low (led uit) te zetten. Onderstaand de code van deze oefening.</p>
+
+			<h3>Opdracht 3B</h3>
+			<pre>
+	void setup() {
+
+		pinMode(13, OUTPUT);
+		pinMode(12, OUTPUT);
+	}
+
+ 
+	void loop() {
+		digitalWrite(13, HIGH);
+		digitalWrite(12, LOW);
+		delay(1000);                       
+		digitalWrite(13, LOW);
+		digitalWrite(12, HIGH);
+			delay(300);                      
+	}
+
+			</pre>
+
+			<h3>Fade led</h3>
+			<p>In plaats van de functie digitalWrite() te gebruiken, maak ik nu gebruik van de functie analogWrite(). Deze functie zorgt ervoor dat je de helderheid van de ledjes kan aanpassen, mits de jumper wires op de juiste pin zitten. Dit weet je als de pin naast het nummer een ~ teken heeft. 255 betekent dat er volledig stroom door het ledje stroomt, bij 0 stroomt er geen stroom door het ledje en bij 128 stroom de helft door het ledje heen. Zo kan je de ledjes om de beurt laten vervagen en oplichten. Zie de code voor de uitwerking. </p>
+
+			<h3>Opdracht 4C</h3>
+
+			<pre>
+	int greenLedPin = 10;
+	int yellowLedPin = 9;
+
+	void setup() {
+			pinMode(greenLedPin, OUTPUT);
+			pinMode(yellowLedPin, OUTPUT);
+	}
+
+	void loop() {
+			for (int brightness=0; brightness <256; brightness++){
+		analogWrite(greenLedPin, brightness);
+		analogWrite(yellowLedPin, 255-brightness);
+		delay(10);
+			}
+	}
+
+			</pre>
+
+      		<h3>Potmeter</h3>
+			<p>Een potmeter is een draaiknop waarmee je onder andere een ledje aan en uit kan zetten. De potmeter moet altijd aan een A0 pin zitten, verbonden zijn met de 5V pin en de GRD (ground) pin. De A0 pin zorgt dat de gegevens gelezen kunnen worden, 5V zorgt dat er 5 volt door de potmeter stroomt en gaat terug via de ground pin. </p>
+
+			<h3>Opdracht 5</h3>
+			<pre>
+	int sensorValue = 0; 
+	int sensorPin = A0;
+
+	void setup() {
+			pinMode(sensorPin, INPUT);
+			Serial.begin(9600);
+	}
+
+	void loop() {
+			sensorValue = analogRead(sensorPin); 
+			
+			Serial.println(sensorValue); 
+			delay(200); 
+	}
+
+			</pre>
+
+			<p>De bovenstaande code zorgt ervoor dat de gegevens worden doorgestuurd naar de serial monitor. Daarin kan je aflezen wat er vanaf het Arduino board wordt gestuurd naar de laptop. Als je dus aan de potmeter draait, zie je de waarden in de serial monitor veranderen. Deze waarden kunnnen ook gekoppeld worden aan de functie analogWrite(), waardoor de ledjes in en uit vagen als je aan de potmeter draait. De functie map() zorgt ervoor dat de sensorValue binnen een bepaald bereik blijft. Bekijk de onderstaande code om te zien wat ik heb gedaan. </p>
+
+			<h3>Opdracht 6C</h3>
+
+			<pre>
+	float sensorValue = 0.0; 
+	int sensorPin = A0; 
+
+	int greenLedPin = 10;
+	int yellowLedPin = 9;
+
+
+	void setup() {
+		pinMode(sensorPin, INPUT);
+		Serial.begin(9600);
+		pinMode(greenLedPin, OUTPUT);
+		pinMode(yellowLedPin, OUTPUT);
+	}
+
+	void loop(){
+	  sensorValue = analogRead(sensorPin);
+	  sensorValue= map(sensorValue, 0, 1023, 0, 255); 
+
+	  analogWrite(greenLedPin, sensorValue);
+	  analogWrite(yellowLedPin, 255-sensorValue);
+
+	  Serial.println(sensorValue); 
+	  delay(20); 
+	}
+				
+			</pre>
+
+			<h3>Led Matrix</h3>
+			<p>In deze opdrachten ging ik werken met een led Matrix. Dit is een 8x8 led plaat waar je dingen op kunt tonen door bepaalde ledjes aan te roepen. Hiervoor moest je wel eerst een libary downloaden, namelijk ledControl. Zo kan je functies oproepen, zoal setLed(), setRow() of setColumn(). Ik heb een smiley toegevoegd die om de seconden lacht en een fronsend gezicht trekt. Onderstaand de code hoe ik dit heb gedaan. </p>
+
+			<h3>Opdracht 7A</h3>
+
+			<pre>
+	#include "LedControl.h" /* 
+	DIN connects to pin 12 
+	CLK connects to pin 11 
+	CS connects to pin 10 */ 
+	LedControl lc = LedControl(12,11,10,1);  
+
+	void setup() { 
+		lc.shutdown(0,false);  
+		lc.setIntensity(0,8);  
+		lc.clearDisplay(0); 
+	} 
+	void loop(){ 
+		lc.setRow(0,0,B00111100); 
+		lc.setRow(0,1,B01000010); 
+		lc.setRow(0,2,B10100101);  
+		lc.setRow(0,3,B10000001); 
+		lc.setRow(0,4,B10100101); 
+		lc.setRow(0,5,B10011001); 
+		lc.setRow(0,6,B01000010); 
+		lc.setRow(0,7,B00111100); 
+		delay(1000); 
+
+		lc.setRow(0,0,B00111100); 
+		lc.setRow(0,1,B01000010); 
+		lc.setRow(0,2,B10100101); 
+		lc.setRow(0,3,B10000001); 
+		lc.setRow(0,4,B10011001); 
+		lc.setRow(0,5,B10100101); 
+		lc.setRow(0,6,B01000010); 
+		lc.setRow(0,7,B00111100); 
+		delay(1000); 
+	}
+
+			</pre>
+
+			<p>Ook heb ik nog een 'D' gemaakt die ik met een potmeter in beeld kan laten komen. Zie het filmpje links op de pagina om dit te zien.</p>
+
+			<h3>Control the led</h3>
+
+			<p>Naast een potmeter zijn er ook nog andere sensoren, zoals een LDR sensor. Deze sensor meet de hoeveelheid licht, vergelijkbaar met een straatlicht die aangaat als het donker wordt. De code die deze sensor laat werken is bijna hetzelfde als die bij de potmeter, maar zonder de waarden moest ik zelf uitzoeken. Dit doe je door het meest lage en hoge getal te meten door je hand over de sensor te houden en zo het bereik te berekenen en dit in de functie map() toe te voegen. Zie de volledige code voor alle stappen. </p>
+
+			<h3>Opdracht 8</h3>
+			<pre>
+	float sensorValue = 0.0; 
+	int sensorPin = A0; 
+
+	int greenLedPin = 10;
+	int yellowLedPin = 9;
+
+
+	void setup() {
+		 pinMode(sensorPin, INPUT);
+		 Serial.begin(9600);
+		 pinMode(greenLedPin, OUTPUT);
+		 pinMode(yellowLedPin, OUTPUT);
+	}
+
+	void loop() {
+		  sensorValue = analogRead(sensorPin); 
+		  sensorValue= map(sensorValue, 0, 750, 0, 255);
+		  sensorValue=constrain(sensorValue, 0, 255); 
+
+		  Serial.println(sensorValue); 
+
+		  analogWrite(greenLedPin, sensorValue);
+		  analogWrite(yellowLedPin, sensorValue);
+
+		  delay(20); 
+	}
+
+			</pre>
+
+			<h3>Sound</h3>
+			<p>Op het board kan je ook een speaker toevoegen, zodat je met code geluid kan maken. Met de functie tone() kan je verschillende tonen aanroepen en de looptijd aangeven. Ik heb een sirene gemaakt, waar de lage toon 120Hz is en de hoge toon 800Hz. Zie de code. </p>
+
+			<h3>Opdracht 9C</h3>
+			<pre>
+	int speakerPin = 8;
+	
+	void setup() {
+		pinMode(speakerPin, OUTPUT);
+	}
+	void loop() {
+		tone(speakerPin, 220, 500); 
+		delay(500); 
+		tone(speakerPin, 800, 500); 
+		delay(500); 
+	} 
+
+			</pre>
+
+			<h3>Sensing temperature</h3>
+			<p>Naast de potmeter en de licht sensor heb je ook een NTC sensor. Deze sensor meet de temperatuur. Hoe dit werkt is terug te zien in het filmpje. </p>
+
+			<h3>Distance</h3>
+			<p>Ook heb je een Ultrasonic Proximity Sensor, een sensor dat de afstand kan meten. De Arduino zendt een signaal naar de sensor, de sensor zend een ultrasone puls uit en deze afstand wordt in cm berekent en doorgestuurd naar de serial monitor. Zo kan je ook zorgen dat je een ledje aan en uit kan doen, door je hand dichtbij en ver weg van de sensor te houden. Zie de code voor alle stappen die ik heb doorlopen. </p>
+
+			<h3>Opdracht 11C</h3>
+
+			<pre>
+	const int echoPin = 6; 
+	const int trigPin = 7; 
+	int ledPin = 8;
+
+
+	void setup() { 
+		pinMode(echoPin, INPUT); 
+		pinMode(trigPin, OUTPUT); 
+		pinMode(ledPin, OUTPUT);
+		Serial.begin(9600); 
+	} 
+
+	void loop() { 
+		
+		digitalWrite(trigPin, LOW); 
+		delayMicroseconds(2); 
+		digitalWrite(trigPin, HIGH); 
+		delayMicroseconds(5); 
+		digitalWrite(trigPin, LOW); 
+		
+		long duration = pulseIn(echoPin, HIGH);
+		
+		int cm = duration / 29 / 2; 
+		Serial.print(cm); 
+
+		if(cm<50){
+			digitalWrite(ledPin, HIGH);
+		}
+
+		Else{
+			digitalWrite(ledPin, LOW);
+		}
+
+		Delay(100);
+	}
+
+			</pre>
+
+			<h3>Arduino and Processing</h3>
+			<p>Processing is een programma waarmee je interactieve ervaringen kan maken, zoals het maken van een vierkant of een rondje. Deze kan reageren op sensoren, zoals ik heb gedaan met de temperatuur sensor. Door deze aan te raken wordt het vierkantje groter en kleiner als ik hem loslaat. Zie de code voor hoe ik dit heb gedaan met een ellipse.</p>
+
+			<h3>Opdracht 12D</h3>
+			<pre>
+	float sensorValue = 0; 
+	int sensorPin = A0; 
+	int redLedPin = 10;
+
+	void setup() {
+		Serial.begin(9600); 
+		pinMode(sensorPin, INPUT); 
+		pinMode(redLedPin, OUTPUT); 
+	}
+
+	void loop() {
+		sensorValue = analogRead(sensorPin); 
+		sensorValue = (sensorValue/1023)*255;  
+		analogWrite(redLedPin, sensorValue);
+		Serial.println(sensorValue); 
+		delay(100); 
+	}
+			</pre>
+
+			<p>processing code</p>
+
+			<pre>
+	import processing.serial.*;
+	Serial myPort;
+	String sensorReading="";
+	
+	void setup() {
+		size(400, 400);
+		myPort = new Serial(this, Serial.list()[3], 9600); 
+		myPort.bufferUntil('\n');
+	}
+	void draw() {
+		background(255);
+		fill(0);
+		text("Sensor Reading: " + sensorReading, 20, 20);
+		ellipse(width/2, height/2, float(sensorReading), float(sensorReading));
+		//square(float(sensorReading), float(sensorReading), 200);
+	}
+
+	void serialEvent (Serial myPort) {
+		sensorReading = myPort.readStringUntil('\n');
+	}
+
+			</pre>
+
+			<h3>Buttons</h3>
+			<p>Je kan een ledje ook aan en uit zetten door een button toe te voegen. Op de website van Arduino staat precies uitgelegd hoe je deze button kan gebruiken. In de onderstaande code staat hoe de code werkt als je het ledje uit wil hebben als je op de button drukt. </p>
+
+			<h3>Opdracht 13B</h3>
+			<pre>
+	
+	const int buttonPin = 2;     
+	const int ledPin =  13;      
+
+	int buttonState = 0;  
+
+	void setup() {
+	  
+	  pinMode(ledPin, OUTPUT);
+	  pinMode(buttonPin, INPUT);
+	}
+
+	void loop() {
+	  buttonState = digitalRead(buttonPin);
+
+	  if (buttonState == LOW) {
+	    // turn LED on:
+	    digitalWrite(ledPin, HIGH);
+	  } else {
+	    // turn LED off:
+	    digitalWrite(ledPin, LOW);
+	  }
+	}
+
+			</pre>
+
+			<h3>Servomotor</h3>
+			<p>Een Servomotor is een motor die op een aangegeven positie draait, wat voor aangegeven door bijvoorbeeld een Arduino. Door meerdere for loops met verschillende posities te maken kan je de motor laten bewegen of zelf dansen. Om de motor te controleren moet je wel een speciale library importeren. Zie de onderstaande code hoe ik dit heb gedaan en de motor heb laten dansen. </p>
+
+			<h3>Opdracht 14B</h3>
+			<pre>
+	//import libary
+	#include Servo.h
+
+	Servo myServo; 
+	int servoPin = 9; 
+	int pos = 0;
+
+	void setup() {
+		myServo.attach(servoPin); 
+	}
+
+	void loop() {
+		for(pos = 0; pos < 50; pos += 1.5){ 
+		myServo.write(pos); 
+		delay(5); // Wait 5ms
+		}
+
+		for(pos = 150; pos >= 1; pos -= 1){
+		myServo.write(pos); 
+		delay(10); // Wait 10ms
+		}
+
+		for(pos = 1; pos <= 150; pos += 1){
+		myServo.write(pos); 
+		delay(15); // Wait 15ms
+		}
+
+		for(pos = 150; pos <= 1; pos -= 1.5){
+		myServo.write(pos); 
+		delay(10); // Wait 10ms
+
+		int sensorValue = analogRead(A0); 
+		Serial.println(sensorValue);
+		sensorValue = map(sensorValue, 0, 1000, 0, 7);
+
+		delay(20);
+		}
+	}
+
+			</pre>
+		</section>
+	</section>
+</body>
+</html>

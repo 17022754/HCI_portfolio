@@ -1,0 +1,10 @@
+@media only screen and (min-width: 1024px) {
+	#stylePI{
+		width: 35%;
+	}
+
+	.information {
+		width: 60%;
+	}
+}
+

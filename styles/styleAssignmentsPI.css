@@ -1,0 +1,15 @@
+@media only screen and (min-width: 1024px) {
+	#assignmentPI{
+		width: 35%;
+	}
+
+	.information {
+		width: 60%;
+	}
+
+	iframe{
+		margin-top: 2rem;
+		width: 100%;
+	}
+
+}

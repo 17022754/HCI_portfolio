@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Portfolio HCI</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="styles/style.css">
+	<link rel="stylesheet" type="text/css" href="styles/style-menu.css">
+	<link rel="stylesheet" type="text/css" href="styles/style-images.css">
+	<!-- link and script for the font awesome items -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+	<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+	<script type="text/javascript" src="scripts/script.js" defer></script>
+	<!-- Jquery for the menu -->
+	<script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+
+</head>
+<body>
+	<nav>
+      <div class="logo"><a class="a-layout" href="#">Doortje de Bles</a></div>
+      <label for="btn" class="icon">
+        <span class="fa fa-bars"></span>
+      </label>
+      <input type="checkbox" id="btn">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li>
+          <label for="btn-1" class="show">Hoorcollege opdrachten </label>
+          <a href="#">Hoorcollege opdrachten<i class="fas fa-chevron-circle-down"></i></a>
+          <input type="checkbox" id="btn-1">
+          <ul>
+            <!-- AR/VR section with submenu items -->
+            <li>
+              <label for="btn-2" class="show">AR & VR </label>
+              <a href="html/AR:VR/introduction.html">AR & VR <i class="fas fa-chevron-circle-down"></i></a>
+              <input type="checkbox" id="btn-2">
+              <ul>
+                <li><a href="html/AR:VR/introduction.html">Introductie</a></li>
+                <li><a href="html/AR:VR/assignments.html">Opdrachten</a></li>
+              </ul>
+            </li>
+            <!-- Wearables section with submenu items -->
+            <li>
+              <label for="btn-3" class="show">Wearables </label>
+              <a href="html/Wearables/introduction.html">Wearables <i class="fas fa-chevron-circle-down"></i></a>
+              <input type="checkbox" id="btn-3">
+              <ul>
+                <li><a href="html/Wearables/introduction.html">Introductie</a></li>
+                <li><a href="html/Wearables/assignments.html">Opdrachten</a></li>
+              </ul>
+            </li>
+            <!-- Artificial creatures section with submenu items -->
+            <li>
+              <label for="btn-4" class="show">Artificial creatures </label>
+              <a href="html/AC/introduction.html">Artificial creatures <i class="fas fa-chevron-circle-down"></i></a>
+              <input type="checkbox" id="btn-4">
+              <ul>
+                <li><a href="html/AC/introduction.html">Introductie</a></li>
+                <li><a href="html/AC/assignments.html">Opdrachten</a></li>
+              </ul>
+            </li>
+            <!-- Playful interaction section with submenu items -->
+            <li>
+              <label for="btn-5" class="show">Playful interaction </label>
+              <a href="html/PI/introduction.html">Playful interaction <i class="fas fa-chevron-circle-down"></i></a>
+              <input type="checkbox" id="btn-5">
+              <ul>
+                <li><a href="html/PI/introduction.html">Introductie</a></li>
+                <li><a href="html/PI/assignments.html">Opdrachten</a></li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <!-- Workshop section with submenu items -->
+        <li>
+          <label for="btn-6" class="show">Workshops </label>
+          <a href="#">Workshops<i class="fas fa-chevron-circle-down"></i></a>
+          <input type="checkbox" id="btn-6">
+            <ul>
+		        <li><a href="html/workshopARVR/assignments.html">AR & VR</a></li>
+		        <li><a href="html/workshopArduino/assignments.html">Arduino</a></li>
+		        <li><a href="html/workshopCV/assignments.html">Computer Vision</a></li>
+          	</ul>
+        </li>
+        <!-- Guestlecture section with submenu items -->
+        <li>
+          <label for="btn-7" class="show">Guest lecture </label>
+          <a href="#">Guest lecture <i class="fas fa-chevron-circle-down"></i></a>
+          <input type="checkbox" id="btn-7">
+          <ul>
+            <li><a href="html/Guestlecture/introduction.html">Introductie</a></li>
+            <li><a href="html/Guestlecture/assignments.html">Opdrachten</a></li>
+            <li><a href="html/Guestlecture/reflectie.html">Reflectie</a></li>
+          </ul>
+        </li>
+        <!-- Labweken section with submenu items -->
+        <li>
+          <label for="btn-8" class="show">Labweken </label>
+          <a href="#">Labweken<i class="fas fa-chevron-circle-down"></i></a>
+          <input type="checkbox" id="btn-8">
+          <ul>
+            <li><a href="html/labweken/introduction.html">Introductie</a></li>
+            <li><a href="html/labweken/product.html">Product</a></li>
+            <li><a href="html/labweken/proces.html">Proces</a></li>
+            <li><a href="html/labweken/reflectie.html">Reflectie</a></li>
+          </ul>
+        </li>
+      </ul>
+	</nav>
+	<section class="flexbox">
+		<section class="images">
+			<!-- Virtual Reality image -->
+			<div class="container">
+	  			<img src="images/home/VR.jpg" alt="Virtual reality" class="image">
+	  			<div class="textOn">
+	    			<div class="text"><a href="html/AR:VR/introduction.html" class="layout-a">Virtual Reality</a></div>
+	 			</div>
+			</div>
+			<!-- Augmented Reality image -->
+			<div class="container">
+	  			<img src="images/home/AR.jpg" alt="Augmented Reality" class="image">
+	  			<div class="textOn">
+	    			<div class="text"><a href="html/AR:VR/introduction.html" class="layout-a">Augmented Reality</a></div>
+	 			</div>
+			</div>
+			<!-- Wearables image -->
+			<div class="container">
+	  			<img src="images/home/Wearables.jpg" alt="Wearables" class="image">
+	  			<div class="textOn">
+	    			<div class="text"><a href="html/Wearables/introduction.html" class="layout-a">Wearables</a></div>
+	 			</div>
+			</div>
+			<!-- Artificial Creatures image -->
+			<div class="container">
+	  			<img src="images/home/AI.jpg" alt="Artificial Creatures" class="image">
+	  			<div class="textOn">
+	    			<div class="text"><a href="html/AC/introduction.html" class="layout-a">Artificial Creatures</a></div>
+	 			</div>
+			</div>
+			<!-- Playful interfaces image -->
+			<div class="container">
+	  			<img src="images/home/PI.jpeg" alt="Playful Interfaces" class="image">
+	  			<div class="textOn">
+	    			<div class="text"><a href="html/PI/introduction.html" class="layout-a">Playful Interfaces</a></div>
+	 			</div>
+			</div>
+		</section>
+		<section class="information">
+			<h1>Hi, ik ben Doortje! </h1>
+			<p> Ik ben een communicatie en multimedia design student aan de Haagse Hogeschool. Deze website is speciaal gemaakt voor het vak Human Computer Interaction, ook wel HCI. Het vak gaat over de communicate tussen mens en computer, bekende voorbeelden zijn Pokemon Go, smartwatches en VR brillen. Ook wordt HCI ingezet om een betere wereld te creeren, door bijvoorbeeld het inzetten van computersystemen in het ziekenhuis of op scholen. </p>
+
+			<p>Op deze website is de komende weken te volgen wat ik tijdens dit vak heb geleerd. Elke week leer ik een nieuw onderdeel binnen het vakgebied HCI. Deze onderdelen zijn Virtual reality, Augmented reality, Wearables, Artificial Creatures en Playful interfaces. Binnen deze onderdelen is verwacht dat een aantal opdrachten worden gemaakt. Ook naar aanleiding van de hoorcolleges worden opdrachten uitgewerkt. Deze zijn terug te vinden deze website. </p>
+
+			<p>De laatste twee weken van het vak worden besteed aan het maken van een groot project. Dit heten de HCI weken, waarin je twee weken van 9 tot 5 besteed aan expimenteren binnen het vakgebied. </p>
+
+			<p>Mijn verwachting van dit vak is dat ik het erg leuk ga vinden. Ik ben geintresseerd in de ontwikkelingen binnen HCI en ben benieuwd hoe de technieken precies werken. Ik hoop dat ik het begrijp en dat ik uiteindelijk iets moois kan maken. </p>
+
+			<p>Tijdens dit vak wil ik graag leren hoe de basis van bepaalde programma's werken. Ik denk dat ik hier het meeste aan heb, vooral omdat bepaalde programma's aansluiting hebben op elkaar. Ook lijkt het mij interessant om meer te leren over het coderen, zoals bij A-frame en arduino. Tijdens studiereis heb ik de ICT'ers al zien werken met arduino en gezien wat je er mee kan maken, dus ik ben heel benieuwd wat ik straks zelf kan maken. </p>
+
+      <p>Veel leesplezier!</p>
+		</section>
+	</section>
+</body>
+</html>
