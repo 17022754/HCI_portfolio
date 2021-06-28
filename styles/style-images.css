@@ -6,8 +6,12 @@
 
 iframe, video{
   width: 100%;
-  height: auto;
   margin-top: 1rem;
+}
+
+iframe{
+  min-height: 400px;
+  height: auto;
 }
 
 .image {
