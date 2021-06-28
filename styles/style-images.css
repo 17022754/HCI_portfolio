@@ -18,6 +18,10 @@ video{
   height: auto;
 }
 
+#YoutubevideoG{
+  width: 560px;
+}
+
 .image {
   opacity: 1;
   display: block;
