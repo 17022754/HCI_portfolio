@@ -4,7 +4,7 @@
   z-index: 0;
 }
 
-video{
+iframe, video{
   width: 100%;
   height: auto;
   margin-top: 1rem;
